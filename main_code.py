@@ -19,6 +19,7 @@ def searching_system(full_database,wanted_items):
     while types_of_needed_items >= item_on:
         item_on = item_on+2
         current_item = whanted_items[item_on]
+        current_item = 'Entry-'+current_item
         first_letter = current_item[0]
         if first_letter == 'A' or first_letter == 'a':
             letter_ID = 1
