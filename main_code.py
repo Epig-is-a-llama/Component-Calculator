@@ -4,7 +4,6 @@ def startup():
     database_file = open('main_database.txt','rt')
     full_database = database_file.readlines()
     database_file.close()
-    database_total_lines = len(full_database)
     read_input_file(full_database)
 
 def read_input_file(full_database):
