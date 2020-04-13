@@ -73,7 +73,7 @@ def searching_system(full_database,wanted_items):
         elif first_letter == 'Z' or first_letter == 'z':
             letter_ID = 26
         else:
-            print('Error:\nA letter ID could not be defiened this is very likley to be a database file error the problem entry in the database is: ', current_item)
+            print('\n\nError:\nA letter ID could not be defiened this is very likley to be a database file error the problem entry in the database is: ', current_item)
             input('')
         letter_ID_full = letter_ID + 1
         start_line = readline(letter_ID_full)
