@@ -9,12 +9,12 @@ def startup():
 
 def read_input_file(full_database):
     input_file = open('input_file.txt','rt')
-    whanted_items = input_file.readlines()
+    wanted_items = input_file.readlines()
     input_file.close()
-    searching_system(full_database,whanted_items)
+    searching_system(full_database,wanted_items)
 
-def searching_system(full_database,whanted_items):
-    types_of_needed_items_dobble = len(whanted_items)
+def searching_system(full_database,wanted_items):
+    types_of_needed_items_dobble = len(wanted_items)
     types_of_needed_items = types_of_needed_items_dobble/2
     item_on = -2
     while types_of_needed_items >= item_on:
