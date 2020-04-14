@@ -93,6 +93,33 @@ def searching_system(full_database,wanted_items):
         not_found = 'Yes'
         while not_found == 'Yes':
             line_on = line_on + 1
+            entry_to_test = full_database[line_on]
+            if entry_to_test == current_item:
+                entry_located(line_on,full_database)
+                not_found = 'No'
+            else:
+                not_found = 'Yes'
+
+def entry_located(line,full_database):
+    final_line = 'No'
+    item_number = -1
+    while final_line == 'No':
+        line = line + 1
+        item_number = item_number + 1
+        if full_database[line] != 'EoE'
+            needed_items[item_number] = full_database[line]
+        else:
+            final_line = 'Yes'
+    output_file = open('needed_items.txt','a')
+    pass_num = 0
+    for x in range(0,len(needed_items)):
+        output_file.write(needed_items[pass_num])
+        print('\nAdded the following entry to the output file: ',needed_items[pass_num])
+        pass_num = pass_num + 1
+    output_file.close()
+    searching_system(needed_items)
+
+
 
 #root = Tk()
 
