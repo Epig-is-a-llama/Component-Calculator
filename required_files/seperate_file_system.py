@@ -74,7 +74,7 @@ def output_system():
                 new_number_of_entrys = number_of_existing_entrys + 1
                 sorted_output_list[matching_runs+1] = str(new_number_of_entrys)
                 no_match_found = 'No'
-            if matching_runs == sorted_output_list_final_num:
+            elif matching_runs == sorted_output_list_final_num:
                 sorted_output_list[sorted_output_list_len] = unsorted_output[output_sort_runs]
                 sorted_output_list[sorted_output_list_len + 1] = '1'
             matching_runs = matching_runs + 1
