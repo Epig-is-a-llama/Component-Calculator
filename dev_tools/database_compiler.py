@@ -1,10 +1,13 @@
 file_to_sort = open('Unorganised_database.txt','r')
 unsorted_database = file_to_sort.readlines()
+# reads the contents of the databse it needs to sort
 file_to_sort.close()
 total_lines = len(unsorted_database)
+# calulates the number of the final index number of the unsorted databse
 final_entry = total_lines+1
 done = 'No'
 line_on = -1
+# sets varibles to start the loop
 while done == 'No':
     line_on = line_on + 1
     current_line = unsorted_database[line_on]
