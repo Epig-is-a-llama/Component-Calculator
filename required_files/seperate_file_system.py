@@ -105,6 +105,8 @@ def output_system():
     sorted_output_file.write(sorted_output_list)
     sorted_output_file.close()
     print('\nThis is your final output:\n',sorted_output_list)
+    input('Press enter to close this window and open the output in a .txt file')
+    exit()
 
 #root = Tk()
 
