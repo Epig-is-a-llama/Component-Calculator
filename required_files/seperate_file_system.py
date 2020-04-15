@@ -2,16 +2,23 @@
 
 print('\nLoading...\n')
 
+import os
+
+global output_run_times
+output_run_times = 0
+global output_list
+global user_input_list
+global sorted_output_list
+
 def startup():
+    remove('raw_output_file.txt')
     print('\nLoading done!\n')
     input_system()
     print('\nYour calulations will begin shortly.\n')
     read_input_file()
 
 def read_input_file():
-    input_file = open('input_file.txt','rt')
-    wanted_items = input_file.readlines()
-    input_file.close()
+    wanted_items = user_input_list
     searching_system(wanted_items)
 
 def searching_system(wanted_items):
@@ -38,9 +45,8 @@ def entry_located(filename,item_needed):
         searching_system(entry_data)
 
 def write_needed_item(item_needed):
-    output_file = open('needed_items.txt','a')
-    output_file.write(item_needed)
-    output_file.close()
+    output_list[output_run_times]
+    output_run_times = output_run_times + 1
     print('\nAdded the following entry to the output file: ',item_needed)
 
 def input_system():
@@ -52,6 +58,35 @@ def input_system():
         user_input = input('Please input the item here : ')
         if user_input != 'End':
             user_input_list[0] = user_input
+
+def output_system():
+    unsorted_file = open('raw_output_file.txt','r')
+    unsorted_output = unsorted_file.readlines()
+    unsorted_file.close()
+    unsorted_output_len = len(unsorted_output)
+    not_done == 'Yes'
+    output_sort_runs = 0
+    while not_done == 'Yes':
+        sorted_output_list_len = len(sorted_output_list)
+        matching_runs = 0
+        while no_match_found == 'Yes':
+            if unsorted_output[output_sort_runs] == sorted_output_list[matching_runs]:
+                number_of_existing_entrys = sorted_output_list[matching_runs+1]
+                number_of_existing_entrys = int(number_of_existing_entrys)
+                new_number_of_entrys = number_of_existing_entrys + 1
+                sorted_output_list[matching_runs+1] = str(new_number_of_entrys)
+                no_match_found = 'No'
+            if matching_runs == sorted_output_list_len:
+                sorted_output_list[sorted_output_list_len] = unsorted_output[output_sort_runs]
+                sorted_output_list[sorted_output_list_len + 1] = '1'
+            matching_runs = matching_runs + 1
+        if output_sort_runs == unsorted_output_len:
+            not_done = 'No'
+        output_sort_runs = output_sort_runs + 1
+    sorted_output_file = open('sorted_output_file.txt','w')
+    sorted_output_file.write(sorted_output_list)
+    sorted_output_file.close()
+    print('\nThis is your final output:\n',sorted_output_list)
 
 #root = Tk()
 
