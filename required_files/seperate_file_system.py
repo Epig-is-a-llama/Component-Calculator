@@ -7,6 +7,11 @@ output_run_times = 0
 global output_list
 global user_input_list
 global sorted_output_list
+global database_settings
+database_settings_file = open('database_settings_file.txt','rt')
+database_settings = database_settings_file.readlines()
+# reads the database settings file which can be used to configure the size of stacks and even to run that system the itention is to have it able to manilulate the progarm from this file
+database_settings_file.close()
 
 def startup():
     print('\nLoading done!\n')
