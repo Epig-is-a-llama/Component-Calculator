@@ -21,5 +21,8 @@ while done == 'No':
             entry_own_file[run] = unsorted_database[run+start_of_entry+1]
             run = run + 1
         new_filename = unsorted_database[start_of_entry]+'.txt'
+        new_file = open(new_filename,'wt')
+        new_file.write(entry_own_file)
+        new_file.close()
     if line_on == total_lines:
         done = 'Yes'
