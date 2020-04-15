@@ -1,8 +1,6 @@
-#from tkinter import *
-
 print('\nLoading...\n')
 
-import os
+#from tkinter import *
 
 global output_run_times
 output_run_times = 0
@@ -11,7 +9,6 @@ global user_input_list
 global sorted_output_list
 
 def startup():
-    os.remove('raw_output_file.txt')
     print('\nLoading done!\n')
     input_system()
     print('\nYour calulations will begin shortly.\n')
