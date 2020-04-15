@@ -11,7 +11,7 @@ global user_input_list
 global sorted_output_list
 
 def startup():
-    remove('raw_output_file.txt')
+    os.remove('raw_output_file.txt')
     print('\nLoading done!\n')
     input_system()
     print('\nYour calulations will begin shortly.\n')
