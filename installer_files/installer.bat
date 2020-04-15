@@ -11,5 +11,5 @@ title Installing pyshortcuts
 pip install pyshortcuts
 title Extracting Code
 @code_extractor.py
-tile Launching Game
+tile Launching Program
 @c:\Slimefun-Calculator\launch.bat
