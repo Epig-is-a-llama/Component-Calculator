@@ -57,9 +57,8 @@ def input_system():
             user_input_list[0] = user_input
 
 def output_system():
-    unsorted_file = open('raw_output_file.txt','r')
-    unsorted_output = unsorted_file.readlines()
-    unsorted_file.close()
+    print('\nYour calulations are now done the progarm will now convert the output into a readable form\n')
+    unsorted_output = output_list
     unsorted_output_len = len(unsorted_output)
     not_done == 'Yes'
     output_sort_runs = 0
