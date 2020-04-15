@@ -81,24 +81,27 @@ def output_system():
         if output_sort_runs == unsorted_output_len:
             not_done = 'No'
         output_sort_runs = output_sort_runs + 1
-    not_done = 'Yes'
-    line_on = 1
-    while not_done == 'Yes':
-        current_number = sorted_output_list[line_on]
-        new_number = int(current_number)
-        stack_count = 0
-        while new_number > 64:
-            new_number = new_number - 64
-            stack_count = stack_count + 1
-        if new_number == 64:
-            new_number = 0
-            stack_count = stack_count + 1
-        stack_count_str = str(stack_count)
-        new_number_str = str(new_number)
-        new_line_contents = current_number+'       ( '+stack_count_str+' stacks and '+new_number+' Items ) '
-        sorted_output_list[line_on] = new_line_contents
-        line_on = line_on + 2
-    sorted_output_file = open('sorted_output_file.txt','w')
+    if database_settings[1] == 'Yes':
+        not_done = 'Yes'
+        line_on = 1
+        stack_size = database_settings_file[3]
+        stack_size_int = int(stack_size)
+        while not_done == 'Yes':
+            current_number = sorted_output_list[line_on]
+            new_number = int(current_number)
+            stack_count = 0
+            while new_number > stack_size_int:
+                new_number = new_number - stack_size_int
+                stack_count = stack_count + 1
+            if new_number == stack_size_int:
+                new_number = 0
+                stack_count = stack_count + 1
+            stack_count_str = str(stack_count)
+            new_number_str = str(new_number)
+            new_line_contents = current_number+'       ( '+stack_count_str+' stacks and '+new_number+' Items ) '
+            sorted_output_list[line_on] = new_line_contents
+            line_on = line_on + 2
+    sorted_output_file = open('sorted_output_file.txt','wt')
     sorted_output_file.write(sorted_output_list)
     sorted_output_file.close()
     print('\nThis is your final output:\n',sorted_output_list)
