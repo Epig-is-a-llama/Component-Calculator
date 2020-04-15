@@ -32,11 +32,11 @@ def searching_system(wanted_items):
 
 def entry_located(filename,item_needed):
     try:
-        data_file = open(filename,'r')
+        data_file = open(filename,'rt')
     except Exception as e:
         write_needed_item(item_needed)
     else:
-        data_file = open(filename,'r')
+        data_file = open(filename,'rt')
         entry_data = data_file(readlines)
         data_file.close()
         searching_system(entry_data)
