@@ -68,6 +68,7 @@ def output_system():
     output_sort_runs = 0
     while not_done == 'Yes':
         sorted_output_list_len = len(sorted_output_list)
+        sorted_output_list_final_num = sorted_output_list_len - 1
         matching_runs = 0
         while no_match_found == 'Yes':
             if unsorted_output[output_sort_runs] == sorted_output_list[matching_runs]:
@@ -76,13 +77,30 @@ def output_system():
                 new_number_of_entrys = number_of_existing_entrys + 1
                 sorted_output_list[matching_runs+1] = str(new_number_of_entrys)
                 no_match_found = 'No'
-            if matching_runs == sorted_output_list_len:
+            if matching_runs == sorted_output_list_final_num:
                 sorted_output_list[sorted_output_list_len] = unsorted_output[output_sort_runs]
                 sorted_output_list[sorted_output_list_len + 1] = '1'
             matching_runs = matching_runs + 1
         if output_sort_runs == unsorted_output_len:
             not_done = 'No'
         output_sort_runs = output_sort_runs + 1
+    not_done = 'Yes'
+    line_on = 1
+    while not_done == 'Yes':
+        current_number = sorted_output_list[line_on]
+        new_number = int(current_number)
+        stack_count = 0
+        while new_number > 64:
+            new_number = new_number - 64
+            stack_count = stack_count + 1
+        if new_number == 64:
+            new_number = 0
+            stack_count = stack_count + 1
+        stack_count_str = str(stack_count)
+        new_number_str = str(new_number)
+        new_line_contents = current_number+'       ( '+stack_count_str+' stacks and '+new_number+' Items ) '
+        sorted_output_list[line_on] = new_line_contents
+        line_on = line_on + 2
     sorted_output_file = open('sorted_output_file.txt','w')
     sorted_output_file.write(sorted_output_list)
     sorted_output_file.close()
