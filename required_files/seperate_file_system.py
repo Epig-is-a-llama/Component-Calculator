@@ -25,10 +25,12 @@ def searching_system(wanted_items):
     while types_of_needed_items >= item_on:
         item_on = item_on+2
         current_item = whanted_items[item_on]
+        current_item_number = whanted_items[item_on + 1]
         print('Searching database for entry of : ',current_item)
         item_needed = current_item
         current_item = 'Entry-'+current_item+'.txt'
-        entry_located(current_item,item_needed)
+        for x in range(0,current_item_number):
+            entry_located(current_item,item_needed)
 
 def entry_located(filename,item_needed):
     try:
@@ -53,6 +55,7 @@ def input_system():
     while user_input != 'End':
         print(' ')
         user_input = input('Please input the item here : ')
+        user_number_input = input('Please input the number of those items you whant to have here : ')
         if user_input != 'End':
             user_input_list[0] = user_input
 
