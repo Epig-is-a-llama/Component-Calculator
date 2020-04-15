@@ -3,7 +3,9 @@
 print('\nLoading...\n')
 
 def startup():
-    print('\nLoading done!\nYour calulations will begin shortly.\n')
+    print('\nLoading done!\n')
+    input_system()
+    print('\nYour calulations will begin shortly.\n')
     read_input_file()
 
 def read_input_file():
@@ -41,7 +43,15 @@ def write_needed_item(item_needed):
     output_file.close()
     print('\nAdded the following entry to the output file: ',item_needed)
 
-
+def input_system():
+    print('\nPlease input the items you would like to calulate the required items for.\nTo stop type the word "End" into the input field and the program will start to calulate.')
+    user_input = 'Null'
+    run = 0
+    while user_input != 'End':
+        print(' ')
+        user_input = input('Please input the item here : ')
+        if user_input != 'End':
+            user_input_list[0] = user_input
 
 #root = Tk()
 
