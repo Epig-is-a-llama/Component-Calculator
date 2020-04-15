@@ -26,3 +26,5 @@ while done == 'No':
         new_file.close()
     if line_on == total_lines:
         done = 'Yes'
+print('\nThe databse has now been sorted!')
+input('Press enter to exit')
