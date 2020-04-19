@@ -12,7 +12,7 @@ while done == 'No':
     line_on = line_on + 1
     current_line = unsorted_database[line_on]
     if current_line[0] == 'E' and current_line[1] == 'n' and current_line[2] == 't' and current_line[3] == 'r' and current_line[4] == 'y' and current_line[5] == '-':
-        # cheacks the first 6 caracters of the entry are correct
+        # cheacks the first 6 caracters of the line indicate its the start of a new entry
         start_of_entry = line_on
         end_of_entry_not_found = 'Yes'
         while end_of_entry_not_found == 'Yes':
