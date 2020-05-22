@@ -1,0 +1,23 @@
+Entry-Block
+Metal
+2
+End of entry
+Entry-Item_Net
+Metal
+2
+End of entry
+Entry-Walkway
+Metal
+2
+End of entry
+Entry-Turret
+Metal
+8
+End of entry
+Entry-Turret_Controler
+Metal
+8
+End of entry
+Entry-Thruster
+Metal
+8
