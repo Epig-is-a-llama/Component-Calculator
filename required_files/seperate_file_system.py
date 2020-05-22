@@ -80,7 +80,8 @@ def input_system():
         user_input = input('Please input the item here : ')
         user_number_input = input('Please input the number of those items you whant to have here : ')
         if user_input != 'End':
-            user_input_list[0] = user_input
+            user_input_list[run] = user_input
+        run = run + 1
 
 def output_system():
     print('\nYour calulations are now done the progarm will now convert the output into a readable form\n')
