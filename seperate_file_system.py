@@ -1,18 +1,15 @@
 print('\nLoading...\n')
 
+import os
 #from tkinter import *
 
-global output_run_times
 # declares and sets global variabled
-output_run_times = 0
+output_list = list()
 global output_list
+global database_name
 global user_input_list
 global sorted_output_list
 global database_settings
-database_settings_file = open('database_settings_file.txt','rt')
-database_settings = database_settings_file.readlines()
-# reads the database settings file which can be used to configure the size of stacks and even to run that system the itention is to have it able to manilulate the progarm from this file
-database_settings_file.close()
 
 def startup():
     print('\nLoading done!\n')
@@ -25,7 +22,7 @@ def startup():
     # runs the next function
 
 def read_input_file():
-    # this is a relic of an old input system but may be used to enable multiple input methords at a later time
+    # this is a relic of an old input system but may be used to enable multiple input methords in a future version
     wanted_items = user_input_list
     searching_system(wanted_items)
 
@@ -44,7 +41,7 @@ def searching_system(wanted_items):
         print('Searching database for entry of : ',current_item)
         # gives the user info mation as to what the progarm is doing
         item_needed = current_item
-        current_item = 'Entry-'+current_item+'.txt'
+        current_item = 'required_files/'+database_name+'/Entry-'+current_item+'.txt'
         # makes a varible which will be what the file's name will be so the progarm can propery find it and read the entry
         for x in range(0,current_item_number):
             # loops the apporitate number of times to get the correct number of resorses
@@ -53,35 +50,40 @@ def searching_system(wanted_items):
 def entry_located(filename,item_needed):
     try:
         data_file = open(filename,'rt')
+        data_file = os.path.join(fileDir, filename')
         # trys to open a file as if it fails that means the progarm has reached the end of what it can calulate in that chain
     except Exception as e:
         # goes to the function that writes the raw materials
         write_needed_item(item_needed)
     else:
         data_file = open(filename,'rt')
-        # if an entry can be found however it then reades it and sees what it needed to compleate that entry and will repeat the process until it gets to just the raw materials
+        # if an entry can be found however it then reads it and sees what it needed to compleate that entry and will repeat the process until it gets to just the raw materials
         entry_data = data_file(readlines)
         data_file.close()
         searching_system(entry_data)
 
 def write_needed_item(item_needed):
-    output_list[output_run_times]
-    # makes shure its always entered to a seperate location in the list
-    output_run_times = output_run_times + 1
+    output_list.append(item_needed)
+    # makes sure its always entered to a seperate location in the list
     print('\nAdded the following entry to the output file: ',item_needed)
 
 def input_system():
+    print('\nPlease input the name of the database you wish to use.')
+    database_name = input('Please put the name here: ')
+    settings_file_location = 'required_files/'+database_name+'/database_settings_file.txt'
+    database_settings_file = os.path.join(fileDir, settings_file_location')
+    database_settings = database_settings_file.readlines()
+    # reads the database settings file which can be used to configure the size of stacks and even to run that system the itention is to have it able to manilulate the progarm from this file
+    database_settings_file.close()
     print('\nPlease input the items you would like to calulate the required items for.\nTo stop type the word "End" into the input field and the program will start to calulate.')
     # gives the user instctictions on how to input the data in the correct form
     user_input = 'Null'
-    run = 0
+    user_input_list.list()
     while user_input != 'End':
         print(' ')
-        user_input = input('Please input the item here : ')
-        user_number_input = input('Please input the number of those items you whant to have here : ')
+        user_input_list.append(input('Please input the item here : '))
         if user_input != 'End':
-            user_input_list[run] = user_input
-        run = run + 1
+            user_input_list.append(input('Please input the number of those items you whant to have here : '))
 
 def output_system():
     print('\nYour calulations are now done the progarm will now convert the output into a readable form\n')
@@ -106,7 +108,7 @@ def output_system():
                 no_match_found = 'No'
             elif matching_runs == sorted_output_list_final_num:
                 # however if the progarm is unable to find a maching entry it will create a new entry
-                sorted_output_list[sorted_output_list_len] = unsorted_output[output_sort_runs]
+                sorted_output_list.append(unsorted_output[output_sort_runs])
                 sorted_output_list[sorted_output_list_len + 1] = '1'
             matching_runs = matching_runs + 1
         if output_sort_runs == unsorted_output_len:
@@ -114,7 +116,7 @@ def output_system():
             # when its done going thogth the unsorted list it will automaticly brake the loop
         output_sort_runs = output_sort_runs + 1
     if database_settings[1] == 'Yes':
-        # now will only run this system if its enabled in the database settings and will run it according to how those settings dictate
+        # will only run this system if its enabled in the database settings and will run it according to how those settings dictate
         not_done = 'Yes'
         line_on = 1
         stack_size = database_settings_file[3]
@@ -124,14 +126,10 @@ def output_system():
             current_number = sorted_output_list[line_on]
             new_number = int(current_number)
             stack_count = 0
-            # sets the needed variables out side the loop to improve preformance
-            while new_number > stack_size_int:
+            # sets the needed variables out side the loop to improve performance
+            while new_number >= stack_size_int:
                 new_number = new_number - stack_size_int
-                # until the number is below 64 it will keep calulating to see how many stacks of each item are needed
-                stack_count = stack_count + 1
-            if new_number == stack_size_int:
-                new_number = 0
-                # as it will stop the loop even if the number is 64 this extra if statement will prevent it saying for example that you need 30 stacks and 64 as that is just 31 stacks
+                # until the number is below the set stack size it will keep calulating to see how many stacks of each item are needed
                 stack_count = stack_count + 1
             stack_count_str = str(stack_count)
             new_number_str = str(new_number)
