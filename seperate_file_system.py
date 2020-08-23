@@ -4,8 +4,8 @@ import os
 #from tkinter import *
 
 # declares and sets global variabled
-output_list = list()
 global output_list
+output_list = list()
 global database_name
 global user_input_list
 global sorted_output_list
@@ -41,7 +41,7 @@ def searching_system(wanted_items):
         print('Searching database for entry of : ',current_item)
         # gives the user info mation as to what the progarm is doing
         item_needed = current_item
-        current_item = 'required_files/'+database_name+'/Entry-'+current_item+'.txt'
+        current_item = 'C:\Slimefun-Calultator/premade_databases/',database_name,'/Entry-'+current_item+'.txt'
         # makes a varible which will be what the file's name will be so the progarm can propery find it and read the entry
         for x in range(0,current_item_number):
             # loops the apporitate number of times to get the correct number of resorses
@@ -50,7 +50,6 @@ def searching_system(wanted_items):
 def entry_located(filename,item_needed):
     try:
         data_file = open(filename,'rt')
-        data_file = os.path.join(fileDir, filename')
         # trys to open a file as if it fails that means the progarm has reached the end of what it can calulate in that chain
     except Exception as e:
         # goes to the function that writes the raw materials
@@ -70,8 +69,8 @@ def write_needed_item(item_needed):
 def input_system():
     print('\nPlease input the name of the database you wish to use.')
     database_name = input('Please put the name here: ')
-    settings_file_location = 'required_files/'+database_name+'/database_settings_file.txt'
-    database_settings_file = os.path.join(fileDir, settings_file_location')
+    settings_file_location = 'C:\Slimefun-Calultator/premade_databases/'+database_name+'/database_settings_file.txt'
+    database_settings_file = open(settings_file_location,'rt')
     database_settings = database_settings_file.readlines()
     # reads the database settings file which can be used to configure the size of stacks and even to run that system the itention is to have it able to manilulate the progarm from this file
     database_settings_file.close()
