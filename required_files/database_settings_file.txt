@@ -1,4 +1,0 @@
-use stack calulation system:
-Yes
-stack size:
-64
