@@ -20,7 +20,7 @@ def searching_system(wanted_items,database_name):
         print('\nSearching database for entry of : ',current_item)
         # gives the user info mation as to what the progarm is doing
         item_needed = current_item
-        current_item = 'C:/Component-Calculator/premade_databases/'+database_name+'/Entry-'+current_item+'.txt'
+        current_item = 'C:/Component-Calculator/databases/'+database_name+'/Entry-'+current_item+'.txt'
         # makes a varible which will be what the file's name will be so the progarm can propery find it and read the entry
         for x in range(0,current_item_number):
             # loops the apporitate number of times to get the correct number of resorses
@@ -53,7 +53,7 @@ def database_selection_system():
     return database_name
 
 def database_settings_system(database_name):
-    settings_file_location = 'C:/Component-Calculator/premade_databases/'+database_name+'/database_settings_file.txt'
+    settings_file_location = 'C:/Component-Calculator/databases/'+database_name+'/database_settings_file.txt'
     database_settings_file = open(settings_file_location,'rt')
     database_settings = database_settings_file.read().splitlines()
     # reads the database settings file which can be used to configure the size of stacks and even to run that system the itention is to have it able to manilulate the progarm from this file
