@@ -29,8 +29,8 @@ while done == 'No':
             run = run + 1
         new_filename = unsorted_database[start_of_entry]+'.txt'
         new_file = open(new_filename,'wt')
-        run = 0
-        for x in range(0,len(entry_own_file)):
+        run = 1
+        for x in range(0,(len(entry_own_file)) - 1):
             new_file.write(entry_own_file[run])
             new_file.write('\n')
             run = run + 1
