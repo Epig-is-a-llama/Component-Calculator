@@ -126,7 +126,10 @@ def output_system(raw_output):
             stack_count_str = str(stack_count)
             new_number_str = str(new_number)
             # formats the output to include the newley caulualated values
-            new_line_contents = current_number+'       ( '+stack_count_str+' stacks and '+new_number+' Items ) '
+            if new_number > 0:
+                new_line_contents = current_number+'       ( '+stack_count_str+' stacks and '+new_number+' items ) '
+            else:
+                new_line_contents = current_number+'       ( '+stack_count_str+' stacks ) '
             sorted_output_list[line_on] = new_line_contents
             line_on = line_on + 2
     # adds the end result to a .txt file and then prints the output to screen
