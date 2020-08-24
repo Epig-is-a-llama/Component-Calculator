@@ -1,9 +1,6 @@
 print('\nLoading...\n')
 
-import os
-#from tkinter import *
-
-# declares and sets global variabled
+# declares and sets global variables
 global output_list
 output_list = list()
 global database_name
@@ -11,22 +8,7 @@ global user_input_list
 global sorted_output_list
 global database_settings
 
-def startup():
-    print('\nLoading done!\n')
-    # tells the user the progarm has finished loading
-    input_system()
-    # runs the system to get a user input which the progarm then calulates
-    print('\nYour calulations will begin shortly.\n')
-    # tells the user there caulations are about to begin
-    read_input_file()
-    # runs the next function
-
-def read_input_file():
-    # this is a relic of an old input system but may be used to enable multiple input methords in a future version
-    wanted_items = user_input_list
-    searching_system(wanted_items)
-
-def searching_system(wanted_items):
+def searching_system(wanted_items,raw_output):
     types_of_needed_items_dobble = len(wanted_items)
     types_of_needed_items = types_of_needed_items_dobble/2
     # as the items and number of those items are on seperated items we neeed to half the length of the `whanted_items` list
@@ -45,46 +27,57 @@ def searching_system(wanted_items):
         # makes a varible which will be what the file's name will be so the progarm can propery find it and read the entry
         for x in range(0,current_item_number):
             # loops the apporitate number of times to get the correct number of resorses
-            entry_located(current_item,item_needed)
+            try:
+                data_file = open(filename,'rt')
+                # trys to open a file as if it fails that means the progarm has reached the end of what it can calulate in that chain
+            except Exception as e:
+                # goes to the function that writes the raw materials
+                raw_output.append(item_needed)
+                # makes sure its always entered to a seperate location in the list
+                print('\nAdded the following entry to the output file: ',item_needed)
+            else:
+                data_file = open(filename,'rt')
+                # if an entry can be found however it then reads it and sees what it needed to compleate that entry and will repeat the process until it gets to just the raw materials
+                entry_data = data_file.read().splitlines()
+                data_file.close()
+                raw_output.append(searching_system(entry_data,raw_output))
+        return raw_output
 
-def entry_located(filename,item_needed):
-    try:
-        data_file = open(filename,'rt')
-        # trys to open a file as if it fails that means the progarm has reached the end of what it can calulate in that chain
-    except Exception as e:
-        # goes to the function that writes the raw materials
-        write_needed_item(item_needed)
-    else:
-        data_file = open(filename,'rt')
-        # if an entry can be found however it then reads it and sees what it needed to compleate that entry and will repeat the process until it gets to just the raw materials
-        entry_data = data_file(readlines)
-        data_file.close()
-        searching_system(entry_data)
-
-def write_needed_item(item_needed):
-    output_list.append(item_needed)
-    # makes sure its always entered to a seperate location in the list
-    print('\nAdded the following entry to the output file: ',item_needed)
-
-def input_system():
+def database_selection_system():
     print('\nPlease input the name of the database you wish to use.')
     database_name = input('Please put the name here: ')
-    settings_file_location = 'C:\Slimefun-Calultator/premade_databases/'+database_name+'/database_settings_file.txt'
+    # gets the name of the database the user wishes to use then returns it
+    return database_name
+
+def database_settings_system(database_name):
+    settings_file_location = 'C:\Slimefun-calculator/premade_databases/'+database_name+'/database_settings_file.txt'
     database_settings_file = open(settings_file_location,'rt')
-    database_settings = database_settings_file.readlines()
+    database_settings = database_settings_file.read().splitlines()
     # reads the database settings file which can be used to configure the size of stacks and even to run that system the itention is to have it able to manilulate the progarm from this file
     database_settings_file.close()
-    print('\nPlease input the items you would like to calulate the required items for.\nTo stop type the word "End" into the input field and the program will start to calulate.')
-    # gives the user instctictions on how to input the data in the correct form
-    user_input = 'Null'
-    user_input_list.list()
-    while user_input != 'End':
-        print(' ')
-        user_input_list.append(input('Please input the item here : '))
-        if user_input != 'End':
-            user_input_list.append(input('Please input the number of those items you whant to have here : '))
+    # returns the contends of the database settings
+    return database_settings
 
-def output_system():
+def input_system(database_name):
+    # gives the user instctictions on how to input the data in the correct form
+    print('\nPlease input the items you would like to calulate the required items for (using the database',database_name,').\nTo stop type the word "End" into the input field and the program will start to calulate.')
+    # sets up the variables needed by the list
+    user_input = 'Null'
+    user_input_list = list()
+    while user_input != 'End':
+        # adds a clear line in to allow for the user to clearly see the which quanity request matches with which item request
+        print(' ')
+        # asks the user what item they need
+        user_input = input('Please input the item here : ')
+        if user_input != 'End':
+            # appends the infomation after the if statement to avoid it writing 'End' into the requested items
+            user_input_list.append(user_input)
+            # finds out how many of the most recently requested item is needed and then adds it to the list
+            user_input_list.append(input('Please input the number of those items you whant to have here : '))
+    # returns the requested items
+    return user_input_list
+
+def output_system(raw_output):
     print('\nYour calulations are now done the progarm will now convert the output into a readable form\n')
     unsorted_output = output_list
     # prepares to sort the unsorted output which is in an almost impossible to read format
@@ -145,9 +138,17 @@ def output_system():
     input('Press enter to close this window and open the output in a .txt file')
     exit()
 
-#root = Tk()
-
-startup()
-# runs the startup function as all other functions are started by that
-
-#root.mainloop()
+# tells the user the loading is done
+print('\nLoading done!\n')
+# runs the function to select the database which is to be used for this calulation
+database = database_selection_system()
+# runs the function to retrive the settings for the chosen database
+settings = database_settings_system(database)
+# runs the function to get the requested items from the user
+requested_items = input_system(database)
+# tells the user their calulations will begin shortly
+print('\nYour calulations will begin shortly.\n')
+# creates the list which will contain the raw output
+unsorted_output = list()
+# runs the function to start working out the needed items
+unsorted_output = searching_system(requested_items,unsorted_output)
