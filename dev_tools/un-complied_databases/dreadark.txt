@@ -2,7 +2,7 @@ Entry-Block
 Metal
 2
 End of entry
-Entry-Item_Net
+Entry-Item Net
 Metal
 2
 End of entry
@@ -14,11 +14,19 @@ Entry-Turret
 Metal
 8
 End of entry
-Entry-Turret_Controler
+Entry-Turret Controler
 Metal
 8
 End of entry
 Entry-Thruster
+Metal
+8
+End of entry
+Entry-Fuel
+Explosives
+1
+End of entry
+Entry-Cargo Ejector
 Metal
 8
 End of entry
