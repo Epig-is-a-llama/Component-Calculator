@@ -1,0 +1,9 @@
+To create your own database you will need to produce a .txt file with the contents of what you want to go in the database in the form: (Please note that words in `` are variables the user must correctly configure).
+Entry-`Product one`
+`Ingredient one`
+`Units of ingredient one`
+End of entry
+Please note you can have as many ingredients as you like for each product.
+Once the file is done and you are happy with it copy it into the 'un-complied_databases' folder in this folder and then select the `start database compiling system.bat` and run it.
+Doing so will open a command line window asking you a series of questions which should be self explanatory.
+Once that is done you can then find both a .zip version of your database and a .exe installer for it which can be distributed or published to the repository following the steps found on there for doing so.
