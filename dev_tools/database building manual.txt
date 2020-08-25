@@ -6,4 +6,4 @@ End of entry
 Please note you can have as many ingredients as you like for each product.
 Once the file is done and you are happy with it copy it into the 'un-complied_databases' folder in this folder and then select the `start database compiling system.bat` and run it.
 Doing so will open a command line window asking you a series of questions which should be self explanatory.
-Once that is done you can then find both a .zip version of your database and a .exe installer for it which can be distributed or published to the repository following the steps found on there for doing so.
+Once that is done you can then find both a .zip version of your database and a .exe installer for it which can be distributed or published to the repository following the steps found on the wiki there for doing so.
