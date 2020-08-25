@@ -1,5 +1,14 @@
 import os
 # imports the os module for
+import shutil
+# imports the module for usage in zipping the compleated database
+
+def create_Folder(directory):
+    try:
+        if not os.path.exists(directory):
+            os.makedirs(directory)
+    except OSError:
+        pass
 
 file_to_sort = open('Unorganised_database.txt','rt')
 # opens the databse it needs to sort
@@ -8,6 +17,9 @@ unsorted_database = file_to_sort.read().splitlines()
 file_to_sort.close()
 total_lines = len(unsorted_database)
 # calulates the number of the final index number of the unsorted databse
+database_name = input('Please name your database: ')
+create_Folder(database_name)
+# creates the folder which will contain the database once its done sorting
 final_entry = total_lines - 1
 done = 'No'
 line_on = -1
@@ -30,7 +42,7 @@ while done == 'No':
         for x in range(start_of_entry,end_of_entry):
             entry_own_file.append(unsorted_database[run+start_of_entry])
             run = run + 1
-        new_filename = unsorted_database[start_of_entry]+'.txt'
+        new_filename = 'C:/Component-Calculator/dev_tools/'+database_name+'/'+unsorted_database[start_of_entry]+'.txt'
         new_file = open(new_filename,'wt')
         run = 1
         for x in range(0,(len(entry_own_file)) - 1):
@@ -61,11 +73,15 @@ for x in range (0,(len(config_template) / 2)):
     # increases by two at a time as each setting takes two lines
     runs = runs + 2
 runs = 0
-new_config_file = open('database_settings_file.txt','wt')
+new_config_file = open('C:/Component-Calculator/dev_tools/'+database_name+'/database_settings_file.txt','wt')
 for x in range (0,len(config_list)):
     new_config_file.write(config_list[runs])
     new_config_file.write('\n')
     runs = runs + 1
 new_config_file.close()
-print('Config file created and saved.')
+print('\nConfig file created and saved.')
+print('\nCreating a zip file containing the database...\n')
+database_location = 'C:/Component-Calculator/dev_tools/'+database_name+'/'
+shutil.make_archive(database_name, 'zip', database_location)
+print('\nDatabase zipped into a .zip file with the name of the database as its name.')
 input('Press enter to exit: ')
