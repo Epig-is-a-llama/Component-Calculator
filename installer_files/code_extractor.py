@@ -1,6 +1,11 @@
 import shutil
 import os
 # both are imported for the shortcut copying system
+try:
+    shutil.rmtree('C:/Component-Calculator')
+except Exception as e:
+    pass
+# old contents of the program folder are cleared which the user is warned of before the installation takes place
 from zipfile import ZipFile
 #create a zipfile object and load zip in it
 with ZipFile('files.zip', 'r') as zipObj:
@@ -18,4 +23,4 @@ if shortcut_ans == 'Y':
     # creates a copy of the shortcut for the .EXE verion of the launch.bat
     shutil.copyfile(original, target)
 
-print('\nInstallation compleate!\nPlease remember the base version of the program comes with no databases installed to get them you must either create your own or download them from the Github page where this program came from (https://github.com/Epig-is-a-llama/Component-Calculator).')
+print('\nInstallation of the base program compleate!\nThe program will now open a window which contains all the installers databases which have been uploaded to the github page as well as the devloper tools pack for making databases once you are done with installing all of the modules you wish to or if you do not wish to install any close the folder and the installation of the program will be finalised.')
