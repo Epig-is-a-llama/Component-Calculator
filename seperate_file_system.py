@@ -10,7 +10,7 @@ def searching_system(wanted_items,database_name):
     global requested_items
     requested_items = wanted_items
     print(requested_items)
-    # as the items and number of those items are on seperated items we neeed to half the length of the `whanted_items` list
+    # as the items and number of those items are on seperate lines we neeed to half the length of the `whanted_items` list
     item_on = 0
     # sets a variable the loop will need to run itself
     while types_of_needed_items >= item_on:
