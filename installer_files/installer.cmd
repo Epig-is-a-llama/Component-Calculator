@@ -1,4 +1,4 @@
-ECHO off
+ECHO OFF
 title Component Calculator Installer
 ECHO If python is already installed to this machine when the python installer shows please close it however if it is not yet installed please install it.
 pause
