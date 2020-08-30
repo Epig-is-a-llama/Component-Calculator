@@ -23,11 +23,11 @@ SourceFiles=SourceFiles
 [Strings]
 InstallPrompt=For this installation to succeed both the Component-Calculator and python must be installed to this machine. If both are installed click yes if either is not please click no and then install them.
 DisplayLicense=
-FinishMessage=
 TargetName=C:\Component-Calculator\dev_tools\compiled_databases
 FriendlyName=
 AppLaunched=cmd.exe /d /c "database_package_installer.bat"
 PostInstallCmd=
+FinishMessage=Finished installing this database!
 AdminQuietInstCmd=
 UserQuietInstCmd=
 FILE0="C:\Component-Calculator\dev_tools\database_creation_tool_files\database_package_installer.bat"
