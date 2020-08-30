@@ -32,7 +32,7 @@ AdminQuietInstCmd=
 UserQuietInstCmd=
 FILE0="C:\Component-Calculator\dev_tools\database_creation_tool_files\database_package_installer.bat"
 FILE1="C:\Component-Calculator\dev_tools\database_creation_tool_files\database_extractor.py"
-FILE2="C:\Component-Calculator\dev_tools\complied_databases\database.zip"
+FILE2="C:\Component-Calculator\dev_tools\database_creation_tool_files\database.zip"
 [SourceFiles]
 SourceFiles0=
 [SourceFiles0]
