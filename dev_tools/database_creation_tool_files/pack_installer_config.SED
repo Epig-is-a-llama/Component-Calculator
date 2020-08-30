@@ -25,12 +25,12 @@ InstallPrompt=For this installation to succeed both the Component-Calculator and
 DisplayLicense=
 TargetName=C:\Component-Calculator\dev_tools\compiled_databases
 FriendlyName=
-AppLaunched=cmd.exe /d /c "database_package_installer.bat"
 PostInstallCmd=
 FinishMessage=Finished installing this database!
+AppLaunched=cmd /c "database_package_installer.cmd"
 AdminQuietInstCmd=
 UserQuietInstCmd=
-FILE0="C:\Component-Calculator\dev_tools\database_creation_tool_files\database_package_installer.bat"
+FILE0="C:\Component-Calculator\dev_tools\database_creation_tool_files\database_package_installer.cmd"
 FILE1="C:\Component-Calculator\dev_tools\database_creation_tool_files\database_extractor.py"
 FILE2="C:\Component-Calculator\dev_tools\database_creation_tool_files\database.zip"
 [SourceFiles]
