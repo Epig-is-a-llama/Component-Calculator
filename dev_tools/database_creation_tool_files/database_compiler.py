@@ -47,7 +47,7 @@ while done == 'No':
         new_filename = 'C:/Component-Calculator/dev_tools/compiled_databases/database-to-pack/'+database_name+'/'+unsorted_database[start_of_entry]+'.txt'
         new_file = open(new_filename,'wt')
         run = 1
-        for x in range(0,(len(entry_own_file)) - 1):
+        for x in range(1,len(entry_own_file)):
             # writes the entry into the file
             new_file.write(entry_own_file[run])
             new_file.write('\n')
