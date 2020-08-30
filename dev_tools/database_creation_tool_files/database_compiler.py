@@ -2,8 +2,6 @@ import os
 # imports the os module for
 import shutil
 # imports the module for usage in zipping the compleated database and for part of the .exe creation
-import subprocess
-# imports the module for usage in creating a .exe installer for the database
 
 def create_folder(directory):
     try:
@@ -74,7 +72,7 @@ for x in range (0,total_config_options):
     setting = input('Please answer here: ')
     config_list.append(config_template_contents[runs])
     # appends the setting title and then the setting value to the list which will be later writen to the new config file
-    config_list.append(config_template_contents[runs + 1])
+    config_list.append(setting)
     # increases by two at a time as each setting takes two lines
     runs = runs + 2
 runs = 0
@@ -89,7 +87,7 @@ new_config_file.close()
 print('\nConfig file created and saved.')
 # tells the user the config has been created and saved and then begins to zip the database
 print('\nCreating a zip file containing the database...\n')
-database_location = 'C:\Component-Calculator\dev_tools/compiled_databases/database-to-pack/'
+database_location = 'C:/Component-Calculator/dev_tools/compiled_databases/database-to-pack/'
 # works out the location of the folder containing the database and then executes the code to zip it then notifies the user
 shutil.make_archive('database', 'zip', database_location)
 original = r'database.zip'
@@ -113,3 +111,9 @@ for x in range(0, len(exe_config_list)):
     exe_config_file.write('\n')
     runs = runs + 1
 exe_config_file.close()
+os.system('cmd /c "iexpress /N C:\Component-Calculator\dev_tools\database_creation_tool_files\pack_installer_config.SED"')
+# deletes the temporary file which is used to house the database while it is being put into the database installer
+os.remove('C:/Component-Calculator/dev_tools/database_creation_tool_files/database.zip')
+# tells the user the .exe file has been made and tells them they may now close the program
+print('\n.EXE installer for the database created with the name set as: `'+database_name+' installer` when run this will automaticly install the database onto the computer if they have the base program already installed if it does not it will direct them to do so to use this database.\n')
+input('Now that the database has been fully processed and saved to the compiled database folder you may now press enter to exit: ')
