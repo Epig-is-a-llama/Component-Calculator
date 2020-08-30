@@ -21,7 +21,7 @@ AdminQuietInstCmd=%AdminQuietInstCmd%
 UserQuietInstCmd=%UserQuietInstCmd%
 SourceFiles=SourceFiles
 [Strings]
-InstallPrompt=
+InstallPrompt=For this installation to succeed both the Component-Calculator and python must be installed to this machine. If both are installed click yes if either is not please click no and then install them.
 DisplayLicense=
 FinishMessage=
 TargetName=C:\Component-Calculator\dev_tools\compiled_databases
