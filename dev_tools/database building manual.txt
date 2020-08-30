@@ -1,5 +1,6 @@
 To create your own database you will need to produce a .txt file with the contents of what you want to go in the database in the form: (Please note that words in `` are variables the user must correctly configure).
 Entry-`Product one`
+`Units produced`
 `Ingredient one`
 `Units of ingredient one`
 End of entry

@@ -1,19 +1,20 @@
 print('\nLoading...\n')
 
+import math
+# imported for the math.ceil() function
+
 # creates and makes global the list which will contain the raw output
 global raw_output
 raw_output = list()
 
 def searching_system(wanted_items,database_name):
-    types_of_needed_items_dobble = len(wanted_items)
-    types_of_needed_items = types_of_needed_items_dobble/2
-    global requested_items
-    requested_items = wanted_items
-    print(requested_items)
-    # as the items and number of those items are on seperate lines we neeed to half the length of the `whanted_items` list
+    types_of_needed_items = len(wanted_items)
+    print('types of needed items: ', types_of_needed_items)
+    # works out the amount of items in the `whanted_items` list
+    print('wanted items: ', wanted_items)
     item_on = 0
     # sets a variable the loop will need to run itself
-    while types_of_needed_items >= item_on:
+    while types_of_needed_items > item_on:
         current_item = wanted_items[item_on]
         current_item_number = int(wanted_items[item_on + 1])
         # gets the number of items and what items out of the whanted items list
@@ -22,28 +23,35 @@ def searching_system(wanted_items,database_name):
         item_needed = current_item
         current_item = 'C:/Component-Calculator/databases/'+database_name+'/Entry-'+current_item+'.txt'
         # makes a varible which will be what the file's name will be so the progarm can propery find it and read the entry
-        for x in range(0,current_item_number):
+        try:
+            test_file = open(current_item, 'rt')
+            # trys to open a file as if it fails that means the progarm has reached the end of what it can calulate in that chain
+        except Exception as e:
+            entry_exists = False
+            batches_needed = current_item_number
+        else:
+            entry_exists = True
+            data_file = open(current_item,'rt')
+            # if an entry can be found however it then reads it and sees what it needed to compleate that entry and will repeat the process until it gets to just the raw materials
+            raw_entry_data = data_file.read().splitlines()
+            batches_needed = math.ceil(current_item_number / int(raw_entry_data[0]))
+        for x in range(0,batches_needed):
             # loops the apporitate number of times to get the correct number of resorses
-            try:
-                data_file = open(current_item,'rt')
-                # trys to open a file as if it fails that means the progarm has reached the end of what it can calulate in that chain
-            except Exception as e:
+            if entry_exists == False:
                 # writes the raw materials
                 raw_output.append(item_needed)
                 # makes sure its always entered to a seperate location in the list
                 print('\nAdded the following entry to the output file: ',item_needed)
             else:
-                data_file = open(current_item,'rt')
-                # if an entry can be found however it then reads it and sees what it needed to compleate that entry and will repeat the process until it gets to just the raw materials
-                raw_entry_data = data_file.read().splitlines()
-                runs = 0
+                runs = 1
                 entry_data = list()
-                for x in range(0, len(raw_entry_data)):
+                for x in range(1, len(raw_entry_data)):
                     entry_data.append(raw_entry_data[runs])
                     runs = runs + 1
                 data_file.close()
                 (searching_system(entry_data,database_name))
         item_on = item_on+2
+        print('item on: ', item_on)
         # goes up in twos as each entry takes two lines
 
 def database_selection_system():
@@ -71,23 +79,16 @@ def input_system(database_name):
         # adds a clear line in to allow for the user to clearly see the which quanity request matches with which item request
         print(' ')
         # asks the user what item they need
-        user_input = input('Please input the item here : ')
+        user_input = input('Please input the item name here : ')
         if user_input != 'End':
             # appends the infomation after the if statement to avoid it writing 'End' into the requested items
             user_input_list.append(user_input)
             # finds out how many of the most recently requested item is needed and then adds it to the list
-            user_input_list.append(input('Please input the number of those items you whant to have here : '))
+            user_input_list.append(input('Please input the amount of \''+user_input+'\' you wish to have : '))
     # returns the requested items
     return user_input_list
 
 def output_system(raw_output,database_settings):
-    global output_sort_runs
-    global unsorted_output
-    global sorted_output_list
-    global matching_runs
-    global unsorted_output_len
-    global sorted_output_list_len
-    global line_on
     print('\nYour calulations are now done the progarm will now convert the output into a readable form\n')
     unsorted_output = raw_output
     # prepares to sort the unsorted output which is in an almost impossible to read format
@@ -157,8 +158,7 @@ def output_system(raw_output,database_settings):
     sorted_output_file.close()
     print('\nThis is your final output:\n',formated_output)
     # the input is so the progarm doesn't just close when its done
-    input('Press enter to close this window and open the output in a .txt file')
-    exit()
+    input('Press enter to close this window and open the output in a .txt file: ')
 
 # tells the user the loading is done
 print('\nLoading done!\n')
@@ -167,10 +167,10 @@ database = database_selection_system()
 # runs the function to retrive the settings for the chosen database
 settings = database_settings_system(database)
 # runs the function to get the requested items from the user
-requested_items = input_system(database)
+input_items = input_system(database)
 # tells the user their calulations will begin shortly
 print('\nYour calulations will begin shortly.\n')
 # runs the function to start working out the needed items
-searching_system(requested_items,database)
+searching_system(input_items,database)
 # calls the function to give the user their results
 output_system(raw_output,settings)

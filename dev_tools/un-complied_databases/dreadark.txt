@@ -1,32 +1,40 @@
 Entry-Block
+1
 Metal
 2
 End of entry
 Entry-Item Net
+1
 Metal
 2
 End of entry
 Entry-Walkway
+1
 Metal
 2
 End of entry
 Entry-Turret
+1
 Metal
 8
 End of entry
 Entry-Turret Controler
+1
 Metal
 8
 End of entry
 Entry-Thruster
+1
 Metal
 8
 End of entry
 Entry-Fuel
+1
 Explosives
 1
 End of entry
 Entry-Cargo Ejector
+1
 Metal
 8
 End of entry
