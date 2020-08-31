@@ -23,7 +23,7 @@ SourceFiles=SourceFiles
 [Strings]
 InstallPrompt=For this installation to work you must have python and the component calulator installed to this machine. Do you wish to proceed?
 DisplayLicense=
-FinishMessage=Dev Tools Module Installed Sucessfuly
+FinishMessage=Dev tools module installed successfully. To access it go to 'C:\Component-Calulator\dev_tools' where you can find the manual and the compiling system.
 TargetName=F:\Component-Calculator\installer_files\Dev-Tools-Module-Installer.EXE
 FriendlyName=Component Calulator Dev Tools Module
 AppLaunched=cmd /c "installer.cmd"
