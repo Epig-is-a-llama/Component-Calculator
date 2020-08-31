@@ -53,7 +53,7 @@ dev_tools_got_update = 'Null'
 while dev_tools_got_update != 'Y' and dev_tools_got_update != 'N':
     # if the user answers with either 'Y' or 'N' the loop is broken
     print(' ')
-    # puts in a blank line
+    # puts in a blank line to make it easyer for the user to read the outputs and input prompts
     dev_tools_got_update = input('Did the dev tools module recive any changes? (Y/N): ')
     # asks the user if the dev tools module was updated
 
