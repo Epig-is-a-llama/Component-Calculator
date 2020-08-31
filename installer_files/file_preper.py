@@ -57,25 +57,25 @@ while dev_tools_got_update != 'Y' and dev_tools_got_update != 'N':
     dev_tools_got_update = input('Did the dev tools module recive any changes? (Y/N): ')
     # asks the user if the dev tools module was updated
 
-new_dev_tools_installer_location = 'C:/Component-Calculator/installers/'+version_num+'/dev_tools_module_installer.EXE'
+new_dev_tools_installer_location = base_directory+'/installers/'+version_num+'/dev_tools_module_installer.EXE'
 # works out the location the dev tools module needs to be put when it is created or copyied
 
 if dev_tools_got_update == 'Y':
     # if the user says changes have occured to the dev tools module the program will create a new installer for it
-    shutil.make_archive('Dev-Tools-Module-Installer', 'zip', 'C:/Component-Calculator/dev_tools')
+    shutil.make_archive('Dev-Tools-Module-Installer' , 'zip' , base_directory+'/dev_tools')
     # creates a zip file containing the dev tools folder
     os.system('cmd /c "iexpress /N dev_tools_installer_config.SED"')
-    # creates the .EXE installer for the
-    shutil.copyfile('C:/Component-Calculator/installer_files/Dev-Tools-Module-Installer.EXE', new_dev_tools_installer_location)
-    # moves the newly created installer to the correct location
-    os.remove('C:/Component-Calculator/installer_files/Dev-Tools-Module-Installer.EXE')
-    # delates the original copy of the installer now it has been moved
+    # creates the .EXE installer for the dev tools module
+    shutil.copyfile(base_directory+'/installer_files/Dev-Tools-Module-Installer.EXE' , new_dev_tools_installer_location)
+    # copies the newly created installer to the correct location
+    os.remove(base_directory+'/installer_files/Dev-Tools-Module-Installer.EXE')
+    # delates the original copy of the installer now it has been copied
 
 elif dev_tools_got_update == 'N':
     # if the user says no changed have been made to the dev tools module the program will just bring the installer from the preivous version forwards
-    last_dev_tools_installer_location = 'C:/Component-Calculator/installers/'+last_version_num+'/dev_tools_module_installer.EXE'
+    last_dev_tools_installer_location = base_directory+'/installers/'+last_version_num+'/dev_tools_module_installer.EXE'
     # works out the installer location for the dev tools module in the last version
-    shutil.copyfile(last_dev_tools_installer_location, new_dev_tools_installer_location)
+    shutil.copyfile(last_dev_tools_installer_location , new_dev_tools_installer_location)
     # copys the last dev tools installer to the location the new one should be located
 
 else:
