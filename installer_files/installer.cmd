@@ -8,5 +8,5 @@ title Extracting Code
 @code_extractor.py
 pause
 explorer "C:\Component-Calultator\Module-Installers"
-ECHO The installation is now fully complete.
+ECHO The installation is now fully complete. The program is installed to 'C:\Component-Calculator'.
 pause
