@@ -84,20 +84,6 @@ else:
     input('Press enter to close the program: ')
     exit()
 
-launch_exe_updated = 'Null'
-# preps the variable to start the loop
-while launch_exe_updated != 'Y' and dev_tools_got_update != 'N':
-    # when the user answers with 'Y' or 'N' the loop is broken
-    print(' ')
-    # adds a clear line
-    launch_exe_updated = input('Did launch.cmd get changed? (Y/N): ')
-    # asks the user if the launch.cmd file recived any changes
-
-if launch_exe_updated == 'Y':
-    pass
-
-elif launch_exe_updated == 'N':
-    pass
 if major_version(version_num) == major_version(last_version_num):
     shutil.rmtree(base_directory+'/Module-Installers')
     # if the major version number (the first part of the version number) has not changed the program will import the databases from the last version the user is then notified of this
@@ -105,12 +91,6 @@ if major_version(version_num) == major_version(last_version_num):
     print('\nAs the format for the databases has not changed all databases from the preivous versions have been pulled forwards.\n')
 
 else:
-    print('\nError with the program determining if the launch.cmd file got an update please restart this program')
-    # if the loop has been borken but the answer is not Y or N the program will alert the user of the issue and then close
-    input('Press enter to close the program: ')
-    exit()
-
-shutil.copytree()
     create_folder(base_directory'/Module-Installers')
     # if the major version number has changed (which would signify a change in the database formats) no databases will be pulled forwardsa as the change would prevent them from working with the new version
     # the user is then alerted to this
