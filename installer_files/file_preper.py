@@ -2,6 +2,20 @@ import os
 import shutil
 # both imported for file and folder manipulation
 
+def major_version(input_version):
+    runs = 0
+    # starts the runs variable at 0 so the system starts at 0 working out the version number
+    output = str()
+    # sets the output to be blank as the system appends to it meaning it requires a base string which in this case needs to be clear
+
+    while input_version[runs] != '.':
+        # until it reaches the first point in the version number string it will continute to add to the output
+        output = output + input_version[runs]
+        runs = runs + 1
+
+    return output
+    # once the system has worked out the final output it returns it
+
 def create_folder(directory):
     try:
         if not os.path.exists(directory):
@@ -82,6 +96,11 @@ if launch_exe_updated == 'Y':
 
 elif launch_exe_updated == 'N':
     pass
+if major_version(version_num) == major_version(last_version_num):
+    shutil.rmtree(base_directory+'/Module-Installers')
+    # if the major version number (the first part of the version number) has not changed the program will import the databases from the last version the user is then notified of this
+    shutil.copytree(base_directory+'/installers/version_num/databases/exe-installers' , base_directory'/Module-Installers')
+    print('\nAs the format for the databases has not changed all databases from the preivous versions have been pulled forwards.\n')
 
 else:
     print('\nError with the program determining if the launch.cmd file got an update please restart this program')
@@ -90,3 +109,7 @@ else:
     exit()
 
 shutil.copytree()
+    create_folder(base_directory'/Module-Installers')
+    # if the major version number has changed (which would signify a change in the database formats) no databases will be pulled forwardsa as the change would prevent them from working with the new version
+    # the user is then alerted to this
+    print('\nAs the format for the databases has changed no databases have been pulled forwards.\n')
