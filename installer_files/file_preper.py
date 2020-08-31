@@ -2,6 +2,9 @@ import os
 import shutil
 # both imported for file and folder manipulation
 
+base_directory = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+# works out and sets the var base_directory as the directory of the component-calulator folder the program is being run out of
+
 def major_version(input_version):
     runs = 0
     # starts the runs variable at 0 so the system starts at 0 working out the version number
@@ -25,7 +28,6 @@ def create_folder(directory):
         pass
 
 def create_version_folder(version_num):
-    base_directory = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     create_folder(base_directory+'/installers/'+version_num)
     # creates the version folder
     create_folder(base_directory+'/installers/'+version_num+'/databases')
