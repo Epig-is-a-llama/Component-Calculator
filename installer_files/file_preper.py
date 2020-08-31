@@ -80,7 +80,7 @@ elif dev_tools_got_update == 'N':
 
 else:
     print('\nError with the program determining if the dev tools module got an update please restart this program')
-    # if the loop has been borken but the answer is not Y or N the program will alert the user of the issue and then close
+    # if the loop has been borken but the answer is not Y or N the program will alert the user of the issue and then close when the user presses enter
     input('Press enter to close the program: ')
     exit()
 
