@@ -70,6 +70,10 @@ if dev_tools_got_update == 'Y':
     # copies the newly created installer to the correct location
     os.remove(base_directory+'/installer_files/Dev-Tools-Module-Installer.EXE')
     # delates the original copy of the installer now it has been copied
+    shutil.copyfile(base_directory+'/installer_files/Dev-Tools-Module-Installer.zip' , base_directory+'/installers/'+version_num+'Dev-Tools-Data.zip')
+    # copys the dev tools zip file to the version folder
+    os.remove(base_directory+'/installer_files/Dev-Tools-Module-Installer.zip')
+    # delates the orginal copy of the zip file as a copy has now been made and placed in the correct place
 
 elif dev_tools_got_update == 'N':
     # if the user says no changed have been made to the dev tools module the program will just bring the installer from the preivous version forwards
