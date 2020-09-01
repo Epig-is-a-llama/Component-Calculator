@@ -153,7 +153,7 @@ def output_system(raw_output,database_settings):
                 not_done = 'No'
     # adds the end result to a .txt file and then prints the output to screen
     formated_output = "\n".join(sorted_output_list)
-    sorted_output_file = open('sorted_output_file.txt','wt')
+    sorted_output_file = open('C:/Component-Calculator/sorted_output_file.txt','wt')
     sorted_output_file.write(formated_output)
     sorted_output_file.close()
     print('\nThis is your final output:\n',formated_output)
