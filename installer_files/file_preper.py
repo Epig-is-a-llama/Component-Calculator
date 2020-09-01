@@ -27,6 +27,19 @@ def create_folder(directory):
     except OSError:
         pass
 
+def ask_yn(input_string):
+    output = 'Null'
+    # sets the variable to a blank string to avoid an error relating to the var not being declared
+    while output != 'Y' and output != 'N':
+        # if the user answers with either 'Y' or 'N' the loop is broken
+        print(' ')
+        # puts in a blank line to make it easyer for the user to read the outputs and input prompts
+        output = input(input_string)
+        # asks the user the question
+
+    return output
+    # returns the output
+
 def create_version_folder(version_num):
     create_folder(base_directory+'/installers/'+version_num)
     # creates the version folder
@@ -54,17 +67,10 @@ last_version_num = input('Please input the version number for the version that p
 create_version_folder(version_num)
 # creates the folder to contain the installers for the new version
 
-dev_tools_got_update = 'Null'
-# sets the variable to a blank string to avoid an error relating to the var not being declared
-while dev_tools_got_update != 'Y' and dev_tools_got_update != 'N':
-    # if the user answers with either 'Y' or 'N' the loop is broken
-    print(' ')
-    # puts in a blank line to make it easyer for the user to read the outputs and input prompts
-    dev_tools_got_update = input('Did the dev tools module recive any changes? (Y/N): ')
-    # asks the user if the dev tools module was updated
-
 new_dev_tools_installer_location = base_directory+'/installers/'+version_num+'/dev_tools_module_installer.EXE'
 # works out the location the dev tools module needs to be put when it is created or copyied
+
+dev_tools_got_update = ask_yn('Did the dev tools module recive any changes? (Y/N): ')
 
 if dev_tools_got_update == 'Y':
     # if the user says changes have occured to the dev tools module the program will create a new installer for it
