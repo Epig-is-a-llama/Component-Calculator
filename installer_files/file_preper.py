@@ -39,6 +39,12 @@ def create_version_folder(version_num):
     create_folder(base_directory+'/installers/'+version_num+'/databases/zip-files')
     # creates the folder to contain the ziped compiled databases
 
+if os.path.exists('C:/Component-Calulator-TEMP'):
+    shutil.rmtree('C:/Component-Calulator-TEMP')
+    # if the folder already exists it will delate it to ensure that no files are left behind from a previous run of the program if it was stopped before the program had a chance to clear the folder
+create_folder('C:/Component-Calulator-TEMP')
+# creates a folder to house the files being used by the program for creating the installers
+
 version_num = input('Please input the version number for the version you are building the installer for: (MAJOR.MINOR.PATCH) ')
 # asks the user for the version number of the version that they are creating
 print(' ')
@@ -64,16 +70,18 @@ if dev_tools_got_update == 'Y':
     # if the user says changes have occured to the dev tools module the program will create a new installer for it
     shutil.make_archive('Dev-Tools-Module-Installer' , 'zip' , base_directory+'/dev_tools')
     # creates a zip file containing the dev tools folder
-    os.system('cmd /c "iexpress /N dev_tools_installer_config.SED"')
-    # creates the .EXE installer for the dev tools module
-    shutil.copyfile(base_directory+'/installer_files/Dev-Tools-Module-Installer.EXE' , new_dev_tools_installer_location)
-    # copies the newly created installer to the correct location
-    os.remove(base_directory+'/installer_files/Dev-Tools-Module-Installer.EXE')
-    # delates the original copy of the installer now it has been copied
+    shutil.copy(base_directory'/installer_files/Dev-Tools-Module-Installer.zip' , 'C:/Component-Calulator-TEMP/Dev-Tools-Module-Installer.zip')
+    shutil.copy(base_directory'/installer_files/dev_tools_code_extractor.py' , 'C:/Component-Calulator-TEMP/dev_tools_code_extractor.py')
+    shutil.copy(base_directory'/installer_files/dev_tools_installer.cmd' , 'C:/Component-Calulator-TEMP/dev_tools_installer.cmd')
+    # creates copys of all the files needed for the installer in the temp folder
     shutil.copyfile(base_directory+'/installer_files/Dev-Tools-Module-Installer.zip' , base_directory+'/installers/'+version_num+'Dev-Tools-Data.zip')
     # copys the dev tools zip file to the version folder
     os.remove(base_directory+'/installer_files/Dev-Tools-Module-Installer.zip')
     # delates the orginal copy of the zip file as a copy has now been made and placed in the correct place
+    os.system('cmd /c "iexpress /N dev_tools_installer_config.SED"')
+    # creates the .EXE installer for the dev tools module
+    shutil.copyfile('C:/Component-Calulator-TEMP/Dev-Tools-Module-Installer.EXE' , new_dev_tools_installer_location)
+    # copies the newly created installer to the correct location
 
 elif dev_tools_got_update == 'N':
     # if the user says no changed have been made to the dev tools module the program will just bring the installer from the preivous version forwards
@@ -87,6 +95,10 @@ else:
     # if the loop has been borken but the answer is not Y or N the program will alert the user of the issue and then close when the user presses enter
     input('Press enter to close the program: ')
     exit()
+
+shutil.rmtree('C:/Component-Calulator-TEMP')
+# removes then recreates the temp folder to clear all data out of it
+create_folder('C:/Component-Calulator-TEMP')
 
 if major_version(version_num) == major_version(last_version_num):
     shutil.rmtree(base_directory+'/Module-Installers')
