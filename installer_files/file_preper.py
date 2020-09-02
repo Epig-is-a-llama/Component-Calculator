@@ -109,20 +109,20 @@ create_folder('C:/Component-Calculator-TEMP')
 if major_version(version_num) == major_version(last_version_num):
     shutil.rmtree(base_directory+'/Module-Installers')
     # if the major version number (the first part of the version number) has not changed the program will import the databases from the last version the user is then notified of this
-    shutil.copytree(base_directory+'/installers/version_num/databases/exe-installers' , base_directory'/Module-Installers')
+    shutil.copytree(base_directory+'/installers/version_num/databases/exe-installers' , base_directory+'/Module-Installers')
     print('\nAs the format for the databases has not changed all databases from the preivous versions have been pulled forwards.\n')
-    os.remove(base_directory'/Module-Installers/Dev-tools-module-installer.EXE')
+    os.remove(base_directory+'/Module-Installers/Dev-tools-module-installer.EXE')
     # removes the old version of the dev tools module so only the databases are pulled forwards
 
 else:
-    create_folder(base_directory'/Module-Installers')
+    create_folder(base_directory+'/Module-Installers')
     # if the major version number has changed (which would signify a change in the database formats) no databases will be pulled forwardsa as the change would prevent them from working with the new version
     # the user is then alerted to this
     print('\nAs the format for the databases has changed no databases have been pulled forwards.\n')
 
-shutil.copy(new_dev_tools_installer_location , base_directory'/Module-Installers/Dev-tools-module-installer.EXE')
+shutil.copy(new_dev_tools_installer_location , base_directory+'/Module-Installers/Dev-tools-module-installer.EXE')
 # creates a copy of the dev tools
-shutil.make_archive('Module-Installers' , 'zip' , base_directory'/Module-Installers')
+shutil.make_archive('Module-Installers' , 'zip' , base_directory+'/Module-Installers')
 # creates a zip file containing the module installer folder
 shutil.copy('Module-Installers.zip' , 'C:/Component-Calulator-TEMP/Module-Installers.zip')
 shutil.copy()
