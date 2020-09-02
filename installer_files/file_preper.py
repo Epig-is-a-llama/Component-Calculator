@@ -58,7 +58,7 @@ if os.path.exists('C:/Component-Calculator-TEMP'):
 create_folder('C:/Component-Calculator-TEMP')
 # creates a folder to house the files being used by the program for creating the installers
 
-version_num = input('Please input the version number for the version you are building the installer for: (MAJOR.MINOR.PATCH) ')
+version_num = input('Please input the version number for the version you are building the installer for: (MAJOR.MINOR.PATCH): ')
 # asks the user for the version number of the version that they are creating
 print(' ')
 # puts in a space to seperate the two inputs as `\n` cannot be used in input request strings
