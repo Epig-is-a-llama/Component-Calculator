@@ -21,12 +21,12 @@ AdminQuietInstCmd=%AdminQuietInstCmd%
 UserQuietInstCmd=%UserQuietInstCmd%
 SourceFiles=SourceFiles
 [Strings]
-InstallPrompt=For this installation to work you must have python and the component calulator installed to this machine. Do you wish to proceed?
+InstallPrompt=For this installation to work you must have python and the component calculator installed to this machine. Do you wish to proceed?
 DisplayLicense=
-FinishMessage=Dev tools module installed successfully. To access it go to 'C:\Component-Calulator\dev_tools' where you can find the manual and the compiling system.
+FinishMessage=Dev tools module installed successfully. To access it go to 'C:\Component-Calculator\dev_tools' where you can find the manual and the compiling system.
 TargetName=C:\Component-Calculator-TEMP\Dev-Tools-Module-Installer.EXE
-FriendlyName=Component Calulator Dev Tools Module
 AppLaunched=cmd /c "installer.cmd"
+FriendlyName=Component Calculator Dev Tools Module
 PostInstallCmd=<None>
 AdminQuietInstCmd=
 UserQuietInstCmd=
