@@ -1,10 +1,8 @@
 ECHO OFF
 title Component Calculator Installer
-ECHO If python is already installed to this machine when the python installer shows please close it however if it is not yet installed please install it.
-pause
-title Waiting For Python to be Installed
-@python-3.8.1-amd64-webinstall.exe
-title Extracting Code
+@python_installed_test
+set /p python_test=<python_installed_test_result.txt
+if %python_installed%==0 @python-3.8.1-amd64-webinstall.exe
 @code_extractor.py
 pause
 explorer "C:\Component-Calultator\Module-Installers"
