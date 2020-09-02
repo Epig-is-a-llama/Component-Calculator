@@ -80,7 +80,7 @@ if dev_tools_got_update == 'Y':
     shutil.copy(base_directory+'/installer_files/dev_tools_code_extractor.py' , 'C:/Component-Calculator-TEMP/dev_tools_code_extractor.py')
     shutil.copy(base_directory+'/installer_files/dev_tools_installer.cmd' , 'C:/Component-Calculator-TEMP/dev_tools_installer.cmd')
     # creates copys of all the files needed for the installer in the temp folder
-    shutil.copyfile(base_directory+'/installer_files/Dev-Tools-Module-Installer.zip' , base_directory+'/installers/'+version_num+'Dev-Tools-Data.zip')
+    shutil.copyfile(base_directory+'/installer_files/Dev-Tools-Module-Installer.zip' , base_directory+'/installers/'+version_num+'/Dev-Tools-Data.zip')
     # copys the dev tools zip file to the version folder
     os.remove(base_directory+'/installer_files/Dev-Tools-Module-Installer.zip')
     # delates the orginal copy of the zip file as a copy has now been made and placed in the correct place
