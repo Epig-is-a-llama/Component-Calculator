@@ -107,7 +107,9 @@ shutil.rmtree('C:/Component-Calculator-TEMP')
 create_folder('C:/Component-Calculator-TEMP')
 
 if major_version(version_num) == major_version(last_version_num):
-    shutil.rmtree(base_directory+'/Module-Installers')
+    if os.path.exists(base_directory+'/Module-Installers'):
+        shutil.rmtree(base_directory+'/Module-Installers')
+        # only trys to remove the folder if it exists
     # if the major version number (the first part of the version number) has not changed the program will import the databases from the last version the user is then notified of this
     shutil.copytree(base_directory+'/installers/version_num/databases/exe-installers' , base_directory+'/Module-Installers')
     print('\nAs the format for the databases has not changed all databases from the preivous versions have been pulled forwards.\n')
