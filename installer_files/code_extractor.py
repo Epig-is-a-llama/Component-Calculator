@@ -15,5 +15,3 @@ with ZipFile('files.zip', 'r') as zipObj:
     zipObj.close()
 
 shutil.copy('launch.cmd' , 'C:/Component-Calculator/launch.cmd')
-
-print('\nInstallation of the base program compleate!\nThe program will now open a window which contains all the installers databases which have been uploaded to the github page as well as the devloper tools pack for making databases once you are done with installing all of the modules you wish to or if you do not wish to install any close the folder and the installation of the program will be finalised.')
