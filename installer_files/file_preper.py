@@ -3,7 +3,7 @@ import shutil
 # both imported for file and folder manipulation
 
 base_directory = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-# works out and sets the var base_directory as the directory of the component-calulator folder the program is being run out of
+# works out and sets the var base_directory as the directory of the component-calculator folder the program is being run out of
 
 def major_version(input_version):
     runs = 0
@@ -52,10 +52,10 @@ def create_version_folder(version_num):
     create_folder(base_directory+'/installers/'+version_num+'/databases/zip-files')
     # creates the folder to contain the ziped compiled databases
 
-if os.path.exists('C:/Component-Calulator-TEMP'):
-    shutil.rmtree('C:/Component-Calulator-TEMP')
+if os.path.exists('C:/Component-Calculator-TEMP'):
+    shutil.rmtree('C:/Component-Calculator-TEMP')
     # if the folder already exists it will delate it to ensure that no files are left behind from a previous run of the program if it was stopped before the program had a chance to clear the folder
-create_folder('C:/Component-Calulator-TEMP')
+create_folder('C:/Component-Calculator-TEMP')
 # creates a folder to house the files being used by the program for creating the installers
 
 version_num = input('Please input the version number for the version you are building the installer for: (MAJOR.MINOR.PATCH) ')
@@ -76,9 +76,9 @@ if dev_tools_got_update == 'Y':
     # if the user says changes have occured to the dev tools module the program will create a new installer for it
     shutil.make_archive('Dev-Tools-Module-Installer' , 'zip' , base_directory+'/dev_tools')
     # creates a zip file containing the dev tools folder
-    shutil.copy(base_directory'/installer_files/Dev-Tools-Module-Installer.zip' , 'C:/Component-Calulator-TEMP/Dev-Tools-Module-Installer.zip')
-    shutil.copy(base_directory'/installer_files/dev_tools_code_extractor.py' , 'C:/Component-Calulator-TEMP/dev_tools_code_extractor.py')
-    shutil.copy(base_directory'/installer_files/dev_tools_installer.cmd' , 'C:/Component-Calulator-TEMP/dev_tools_installer.cmd')
+    shutil.copy(base_directory+'/installer_files/Dev-Tools-Module-Installer.zip' , 'C:/Component-Calculator-TEMP/Dev-Tools-Module-Installer.zip')
+    shutil.copy(base_directory+'/installer_files/dev_tools_code_extractor.py' , 'C:/Component-Calculator-TEMP/dev_tools_code_extractor.py')
+    shutil.copy(base_directory+'/installer_files/dev_tools_installer.cmd' , 'C:/Component-Calculator-TEMP/dev_tools_installer.cmd')
     # creates copys of all the files needed for the installer in the temp folder
     shutil.copyfile(base_directory+'/installer_files/Dev-Tools-Module-Installer.zip' , base_directory+'/installers/'+version_num+'Dev-Tools-Data.zip')
     # copys the dev tools zip file to the version folder
@@ -86,7 +86,7 @@ if dev_tools_got_update == 'Y':
     # delates the orginal copy of the zip file as a copy has now been made and placed in the correct place
     os.system('cmd /c "iexpress /N dev_tools_installer_config.SED"')
     # creates the .EXE installer for the dev tools module
-    shutil.copyfile('C:/Component-Calulator-TEMP/Dev-Tools-Module-Installer.EXE' , new_dev_tools_installer_location)
+    shutil.copyfile('C:/Component-Calculator-TEMP/Dev-Tools-Module-Installer.EXE' , new_dev_tools_installer_location)
     # copies the newly created installer to the correct location
 
 elif dev_tools_got_update == 'N':
@@ -102,9 +102,9 @@ else:
     input('Press enter to close the program: ')
     exit()
 
-shutil.rmtree('C:/Component-Calulator-TEMP')
+shutil.rmtree('C:/Component-Calculator-TEMP')
 # removes then recreates the temp folder to clear all data out of it
-create_folder('C:/Component-Calulator-TEMP')
+create_folder('C:/Component-Calculator-TEMP')
 
 if major_version(version_num) == major_version(last_version_num):
     shutil.rmtree(base_directory+'/Module-Installers')
