@@ -23,7 +23,7 @@ SourceFiles=SourceFiles
 [Strings]
 InstallPrompt=Please note if you already have the component calculator installed to this computer the folder containing it will be wiped. Do you wish to proceed?
 DisplayLicense=C:\Component-Calculator-TEMP\license.txt
-FinishMessage=Installation of the Component-Calculator has now finished.
+FinishMessage=Installation of the Component-Calculator has now finished. The program has been installed to 'C:\Component-Calculator' please remember with no databases installed no calculations can take place. To start the program use the 'launch.cmd' file located in the directory quoted.
 TargetName=C:\Component-Calculator-TEMP\full_installer.exe
 FriendlyName=Component Calculator
 AppLaunched=cmd /c "installer.cmd"
