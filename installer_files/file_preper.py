@@ -62,7 +62,7 @@ version_num = input('Please input the version number for the version you are bui
 # asks the user for the version number of the version that they are creating
 print(' ')
 # puts in a space to seperate the two inputs as `\n` cannot be used in input request strings
-last_version_num = input('Please input the version number for the version that preceded the current one: ')
+last_version_num = input('Please input the version number for the version that preceded the current one:  (MAJOR.MINOR.PATCH): ')
 # asks the user for the last version number this can be used to pull installers which haven't had the modules they contain updated forwards to avoid extra work being done to create new installers
 create_version_folder(version_num)
 # creates the folder to contain the installers for the new version
