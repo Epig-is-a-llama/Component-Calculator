@@ -126,13 +126,13 @@ shutil.copy(new_dev_tools_installer_location , base_directory+'/Module-Installer
 # creates a copy of the dev tools
 shutil.make_archive('Module-Installers' , 'zip' , base_directory+'/Module-Installers')
 # creates a zip file containing the module installer folder
-shutil.copy('Module-Installers.zip' , base_directory+'/installers/'+version_num+'/Module-Installers')
+shutil.copy('Module-Installers.zip' , base_directory+'/installers/'+version_num+'/Module-Installers.zip')
 # copys the module installers zip to the right location
 os.remove('Module-Installers.zip')
 # removes the orginal copy of the module installers zip as there is now a copy in the right location
 shutil.make_archive('Other-files' , 'zip' , base_directory+'/other-dependencys')
 # creates a zip file containing the other dependencys
-shutil.copy('Other-files.zip' , base_directory+'/installers/'+version_num+'/Other-files')
+shutil.copy('Other-files.zip' , base_directory+'/installers/'+version_num+'/Other-files.zip')
 # copys the other files zip to the right location
 os.remove('Other-files.zip')
 # removes the orginal copy of the other files zip as there is now a copy in the right location
