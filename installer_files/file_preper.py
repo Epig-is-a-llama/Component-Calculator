@@ -40,16 +40,18 @@ def ask_yn(input_string):
     return output
     # returns the output
 
-def create_version_folder(version_num):
-    create_folder(base_directory+'/installers/'+version_num)
+def create_version_folder(version_num , major_version_num):
+    create_folder(base_directory+'/installers/'+major_version_num)
+    # creates major version folder
+    create_folder(base_directory+'/installers/'+major_version_num+'/'+version_num)
     # creates the version folder
-    create_folder(base_directory+'/installers/'+version_num+'/databases')
+    create_folder(base_directory+'/installers/'+major_version_num+'/databases')
     # creates the database folder
-    create_folder(base_directory+'/installers/'+version_num+'/databases/exe-installers')
+    create_folder(base_directory+'/installers/'+major_version_num+'/databases/exe-installers')
     # creates the exe database installer
-    create_folder(base_directory+'/installers/'+version_num+'/databases/uncompiled')
+    create_folder(base_directory+'/installers/'+major_version_num+'/databases/uncompiled')
     # creates the folder to contain uncompiled databases
-    create_folder(base_directory+'/installers/'+version_num+'/databases/zip-files')
+    create_folder(base_directory+'/installers/'+major_version_num+'/databases/zip-files')
     # creates the folder to contain the ziped compiled databases
 
 if os.path.exists('C:/Component-Calculator-TEMP'):
@@ -60,14 +62,21 @@ create_folder('C:/Component-Calculator-TEMP')
 
 version_num = input('Please input the version number for the version you are building the installer for: (MAJOR.MINOR.PATCH): ')
 # asks the user for the version number of the version that they are creating
+major_version_num = major_version(version_num)
+# gets the major version number
+
 print(' ')
 # puts in a space to seperate the two inputs as `\n` cannot be used in input request strings
+
 last_version_num = input('Please input the version number for the version that preceded the current one:  (MAJOR.MINOR.PATCH): ')
 # asks the user for the last version number this can be used to pull installers which haven't had the modules they contain updated forwards to avoid extra work being done to create new installers
-create_version_folder(version_num)
+last_major_version_num = major_version(last_version_num)
+# works out the major version num for the last version
+
+create_version_folder(version_num , major_version_num)
 # creates the folder to contain the installers for the new version
 
-new_dev_tools_installer_location = base_directory+'/installers/'+version_num+'/dev_tools_module_installer.EXE'
+new_dev_tools_installer_location = base_directory+'/installers/'+major_version_num+'/'+version_num+'/dev_tools_module_installer.EXE'
 # works out the location the dev tools module needs to be put when it is created or copyied
 
 dev_tools_got_update = ask_yn('Did the dev tools module recive any changes? (Y/N): ')
@@ -80,10 +89,10 @@ if dev_tools_got_update == 'Y':
     shutil.copy(base_directory+'/installer_files/dev_tools_code_extractor.py' , 'C:/Component-Calculator-TEMP/dev_tools_code_extractor.py')
     shutil.copy(base_directory+'/installer_files/dev_tools_installer.cmd' , 'C:/Component-Calculator-TEMP/dev_tools_installer.cmd')
     # creates copys of all the files needed for the installer in the temp folder
-    shutil.copyfile(base_directory+'/installer_files/Dev-Tools-Module-Installer.zip' , base_directory+'/installers/'+version_num+'/Dev-Tools-Data.zip')
+    shutil.copyfile(base_directory+'/installer_files/Dev-Tools-Module-Installer.zip' , base_directory+'/installers/'+major_version_num+'/'+version_num+'/Dev-Tools-Data.zip')
     # copys the dev tools zip file to the version folder
-    os.remove(base_directory+'/installer_files/Dev-Tools-Module-Installer.zip')
-    # delates the orginal copy of the zip file as a copy has now been made and placed in the correct place
+    os.remove('Dev-Tools-Module-Installer.zip')
+    # delates the orginal copy of the zip file as a copy has now been copyied to the correct place
     os.system('cmd /c "iexpress /N dev_tools_installer_config.SED"')
     # creates the .EXE installer for the dev tools module
     shutil.copyfile('C:/Component-Calculator-TEMP/Dev-Tools-Module-Installer.EXE' , new_dev_tools_installer_location)
@@ -91,7 +100,7 @@ if dev_tools_got_update == 'Y':
 
 elif dev_tools_got_update == 'N':
     # if the user says no changed have been made to the dev tools module the program will just bring the installer from the preivous version forwards
-    last_dev_tools_installer_location = base_directory+'/installers/'+last_version_num+'/dev_tools_module_installer.EXE'
+    last_dev_tools_installer_location = base_directory+'/installers/'+last_major_version_num+'/'+last_version_num+'/dev_tools_module_installer.EXE'
     # works out the installer location for the dev tools module in the last version
     shutil.copyfile(last_dev_tools_installer_location , new_dev_tools_installer_location)
     # copys the last dev tools installer to the location the new one should be located
@@ -106,12 +115,13 @@ shutil.rmtree('C:/Component-Calculator-TEMP')
 # removes then recreates the temp folder to clear all data out of it
 create_folder('C:/Component-Calculator-TEMP')
 
-if major_version(version_num) == major_version(last_version_num):
-    if os.path.exists(base_directory+'/Module-Installers'):
-        shutil.rmtree(base_directory+'/Module-Installers')
-        # only trys to remove the folder if it exists
+if os.path.exists(base_directory+'/Module-Installers'):
+    shutil.rmtree(base_directory+'/Module-Installers')
+    # only trys to remove the folder if it exists therefore clearing the folder to be populated as it needed
+
+if major_version_num == last_major_version_num:
     # if the major version number (the first part of the version number) has not changed the program will import the databases from the last version the user is then notified of this
-    shutil.copytree(base_directory+'/installers/version_num/databases/exe-installers' , base_directory+'/Module-Installers')
+    shutil.copytree(base_directory+'/installers/'+major_version_num+'/databases/exe-installers' , base_directory+'/Module-Installers')
     print('\nAs the format for the databases has not changed all databases from the preivous versions have been pulled forwards.\n')
     os.remove(base_directory+'/Module-Installers/Dev-tools-module-installer.EXE')
     # removes the old version of the dev tools module so only the databases are pulled forwards
@@ -124,23 +134,25 @@ else:
 
 shutil.copy(new_dev_tools_installer_location , base_directory+'/Module-Installers/Dev-tools-module-installer.EXE')
 # creates a copy of the dev tools
+
 shutil.make_archive('Module-Installers' , 'zip' , base_directory+'/Module-Installers')
 # creates a zip file containing the module installer folder
-shutil.copy('Module-Installers.zip' , base_directory+'/installers/'+version_num+'/Module-Installers.zip')
+shutil.copy('Module-Installers.zip' , base_directory+'/installers/'+major_version_num+'/'+version_num+'/Module-Installers.zip')
 # copys the module installers zip to the right location
 os.remove('Module-Installers.zip')
 # removes the orginal copy of the module installers zip as there is now a copy in the right location
+
 shutil.make_archive('Other-files' , 'zip' , base_directory+'/other-dependencys')
 # creates a zip file containing the other dependencys
-shutil.copy('Other-files.zip' , base_directory+'/installers/'+version_num+'/Other-files.zip')
+shutil.copy('Other-files.zip' , base_directory+'/installers/'+major_version_num+'/'+version_num+'/Other-files.zip')
 # copys the other files zip to the right location
 os.remove('Other-files.zip')
 # removes the orginal copy of the other files zip as there is now a copy in the right location
 
-shutil.copy(base_directory+'/installers/'+version_num+'/Module-Installers.zip' , 'C:/Component-Calculator-TEMP/Module-Installers.zip')
+shutil.copy(base_directory+'/installers/'+major_version_num+'/'+version_num+'/Module-Installers.zip' , 'C:/Component-Calculator-TEMP/Module-Installers.zip')
 shutil.copy(base_directory+'/installer_files/installer.cmd' , 'C:/Component-Calculator-TEMP/installer.cmd')
 shutil.copy(base_directory+'/installer_files/code_extractor.py' , 'C:/Component-Calculator-TEMP/code_extractor.py')
-shutil.copy(base_directory+'/installers/'+version_num+'/Other-files.zip' , 'C:/Component-Calculator-TEMP/Other-files.zip')
+shutil.copy(base_directory+'/installers/'+major_version_num+'/'+version_num+'/Other-files.zip' , 'C:/Component-Calculator-TEMP/Other-files.zip')
 shutil.copy(base_directory+'/installer_files/python_installed_test.py' , 'C:/Component-Calculator-TEMP/python_installed_test.py')
 shutil.copy(base_directory+'/installer_files/python_installed_test_result.txt' , 'C:/Component-Calculator-TEMP/python_installed_test_result.txt')
 shutil.copy(base_directory+'/installer_files/license_copy.txt' , 'C:/Component-Calculator-TEMP/license.txt')
@@ -150,7 +162,7 @@ shutil.copy(base_directory+'/installer_files/python-3.8.1-amd64-webinstall.exe' 
 os.system('cmd /c "iexpress /N full_installer_config.SED"')
 # runs the command to create the .exe installer for the full program
 
-shutil.copy('C:/Component-Calculator-TEMP/full_installer.EXE' , base_directory+'/installers/'+version_num+'/'+version_num+'-Component-Calculator-Installer.EXE')
+shutil.copy('C:/Component-Calculator-TEMP/full_installer.EXE' , base_directory+'/installers/'+major_version_num+'/'+version_num+'/'+version_num+'-Component-Calculator-Installer.EXE')
 # copys the full installer from the temp folde to the correct the location and renames it in the process
 
 shutil.rmtree('C:/Component-Calculator-TEMP')
