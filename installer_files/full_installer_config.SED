@@ -1,0 +1,49 @@
+[Version]
+Class=IEXPRESS
+SEDVersion=3
+[Options]
+PackagePurpose=InstallApp
+ShowInstallProgramWindow=0
+HideExtractAnimation=0
+UseLongFileName=1
+InsideCompressed=0
+CAB_FixedSize=0
+CAB_ResvCodeSigning=0
+RebootMode=N
+InstallPrompt=%InstallPrompt%
+DisplayLicense=%DisplayLicense%
+FinishMessage=%FinishMessage%
+TargetName=%TargetName%
+FriendlyName=%FriendlyName%
+AppLaunched=%AppLaunched%
+PostInstallCmd=%PostInstallCmd%
+AdminQuietInstCmd=%AdminQuietInstCmd%
+UserQuietInstCmd=%UserQuietInstCmd%
+SourceFiles=SourceFiles
+[Strings]
+InstallPrompt=Please note if you already have the component calculator installed to this computer the folder containing it will be wiped. Do you wish to proceed?
+DisplayLicense=C:\Component-Calculator-TEMP\license.txt
+FinishMessage=Installation of the Component-Calculator has now finished.
+TargetName=C:\Component-Calculator-TEMP\full_installer.exe
+FriendlyName=Component Calculator
+AppLaunched=cmd /c "installer.cmd"
+PostInstallCmd=<None>
+AdminQuietInstCmd=
+UserQuietInstCmd=
+FILE0="code_extractor.py"
+FILE1="installer.cmd"
+FILE2="Module-Installers.zip"
+FILE3="Other-files.zip"
+FILE4="python_installed_test.py"
+FILE5="python_installed_test_result.txt"
+FILE6="python-3.8.1-amd64-webinstall.exe"
+[SourceFiles]
+SourceFiles0=C:\Component-Calculator-TEMP\
+[SourceFiles0]
+%FILE0%=
+%FILE1%=
+%FILE2%=
+%FILE3%=
+%FILE4%=
+%FILE5%=
+%FILE6%=
