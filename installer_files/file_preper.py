@@ -126,10 +126,34 @@ shutil.copy(new_dev_tools_installer_location , base_directory+'/Module-Installer
 # creates a copy of the dev tools
 shutil.make_archive('Module-Installers' , 'zip' , base_directory+'/Module-Installers')
 # creates a zip file containing the module installer folder
-shutil.copy('Module-Installers.zip' , 'C:/Component-Calulator-TEMP/Module-Installers.zip')
-shutil.copy()
-shutil.copy()
-shutil.copy()
-# copys the files needed to make the installer to the temp folder
-shutil.make_archive('Other-files' , 'zip' , base_directory'/other-dependencys')
+shutil.copy('Module-Installers.zip' , base_directory+'/installers/'+version_num+'/Module-Installers')
+# copys the module installers zip to the right location
+os.remove('Module-Installers.zip')
+# removes the orginal copy of the module installers zip as there is now a copy in the right location
+shutil.make_archive('Other-files' , 'zip' , base_directory+'/other-dependencys')
 # creates a zip file containing the other dependencys
+shutil.copy('Other-files.zip' , base_directory+'/installers/'+version_num+'/Other-files')
+# copys the other files zip to the right location
+os.remove('Other-files.zip')
+# removes the orginal copy of the other files zip as there is now a copy in the right location
+
+shutil.copy(base_directory+'/installers/'+version_num+'/Module-Installers.zip' , 'C:/Component-Calculator-TEMP/Module-Installers.zip')
+shutil.copy(base_directory+'/installer_files/installer.cmd' , 'C:/Component-Calculator-TEMP/installer.cmd')
+shutil.copy(base_directory+'/installer_files/code_extractor.py' , 'C:/Component-Calculator-TEMP/code_extractor.py')
+shutil.copy(base_directory+'/installers/'+version_num+'/Other-files.zip' , 'C:/Component-Calculator-TEMP/Other-files.zip')
+shutil.copy(base_directory+'/installer_files/python_installed_test.py' , 'C:/Component-Calculator-TEMP/python_installed_test.py')
+shutil.copy(base_directory+'/installer_files/python_installed_test_result.txt' , 'C:/Component-Calculator-TEMP/python_installed_test_result.txt')
+shutil.copy(base_directory+'installer_files/license_copy.txt' , 'C:/Component-Calculator-TEMP/license.txt')
+# copys the files needed to make the installer to the temp folder
+
+os.system('cmd /c "iexpress /N full_installer_config.SED"')
+# runs the command to create the .exe installer for the full program
+
+shutil.copy('C:/Component-Calculator-TEMP/full_installer.EXE' , base_directory+'/installers/'+version_num+'/'+version_num+'-Component-Calculator-Installer.EXE')
+# copys the full installer from the temp folde to the correct the location and renames it in the process
+
+shutil.rmtree('C:/Component-Calculator-TEMP')
+# removes the temp folder and all its contents as it is now no longer needed
+
+print('The version has now been created to the specifications with the installer files put in the correct places.')
+input('Please press enter to exit: ')
