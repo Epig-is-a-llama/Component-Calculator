@@ -1,0 +1,311 @@
+Entry-Block
+1
+Metal
+2
+End of entry
+Entry-Item Net
+1
+Metal
+2
+End of entry
+Entry-Walkway
+1
+Metal
+2
+End of entry
+Entry-Turret
+1
+Metal
+8
+End of entry
+Entry-Turret Controler
+1
+Metal
+8
+End of entry
+Entry-Thruster
+1
+Metal
+8
+End of entry
+Entry-Fuel
+1
+Explosives
+1
+End of entry
+Entry-Cargo Ejector
+1
+Metal
+8
+End of entry
+Entry-Flak Ammo
+4
+Explosives
+1
+Metal
+1
+End of entry
+Entry-Munitions Fabricator
+1
+Metal
+16
+End of entry
+Entry-Punch Ammo
+4
+Explosives
+1
+Metal
+1
+End of entry
+Entry-Slug Ammo
+4
+Explosives
+1
+Metal
+1
+End of entry
+Entry-Sniper Ammo
+4
+Explosives
+1
+Metal
+1
+End of entry
+Entry-Standard Ammo
+4
+Explosives
+1
+Metal
+1
+End of entry
+Entry-Scatter Ammo
+4
+Explosives
+1
+Metal
+1
+End of entry
+Entry-Yank Ammo
+4
+Explosives
+1
+Metal
+1
+End of entry
+Entry-Machine Fabricator
+1
+Metal
+16
+End of entry
+Entry-Equipment Fabricator
+1
+Metal
+16
+End of entry
+Entry-Engineering Fabricator
+1
+Metal
+16
+End of entry
+Entry-Wrench
+1
+Metal
+4
+End of entry
+Entry-Item Shredder
+1
+Metal
+4
+End of entry
+Entry-Ship Shield Booster
+1
+Metal
+2
+End of entry
+Entry-Ship Embiggener
+1
+Metal
+4
+End of entry
+Entry-Ship Shrinkinator
+1
+Metal
+4
+End of entry
+Entry-Spawn Point
+1
+Metal
+8
+End of entry
+Entry-Door
+1
+Metal
+8
+End of entry
+Entry-Backpack
+1
+Metal
+16
+Rubber
+4
+End of entry
+Entry-Speed Skates
+1
+Metal
+8
+Rubber
+4
+Flux
+16
+End of entry
+Entry-Rocket Pack
+1
+Metal
+16
+Rubber
+4
+Flux
+32
+End of entry
+Entry-Hover Pack
+1
+Metal
+16
+Rubber
+4
+Flux
+32
+End of entry
+Entry-Booster Boots
+1
+Metal
+8
+Flux
+16
+Rubber
+8
+End of entry
+Entry-Launcher Gauntlets
+1
+Metal
+8
+Rubber
+8
+Flux
+8
+End of entry
+Entry-Construction Gauntlets
+1
+Metal
+8
+Rubber
+4
+Flux
+32
+End of entry
+Entry-Booster Fuel (Low-Grade)
+1
+Explosives
+16
+End of entry
+Entry-Booster Fuel (High-Grade)
+1
+Explosives
+64
+Flux
+1
+End of entry
+Entry-Helm
+1
+Metal
+8
+End of entry
+Entry-Comms Station
+1
+Metal
+8
+End of entry
+Entry-Sign
+1
+Metal
+8
+End of entry
+Entry-Cargo Hatch
+1
+Metal
+8
+End of entry
+Entry-Expando Box
+1
+Metal
+8
+End of entry
+Entry-Pusher
+1
+Metal
+8
+Silica
+4
+Flux
+4
+End of entry
+Entry-Loader
+1
+Metal
+8
+Flux
+2
+End of entry
+Entry-Recycler
+1
+Metal
+8
+End of entry
+Entry-Freeport Anchor
+1
+Metal
+16
+End of entry
+Entry-Item Launcher
+1
+Metal
+8
+Rubber
+8
+Flux
+8
+End of entry
+Entry-Repair Tool
+1
+Metal
+4
+End of entry
+Entry-Handheld Pusher
+1
+Metal
+4
+Silica
+4
+Flux
+16
+End of entry
+Entry-Hyper Rubber Block
+1
+Rubber
+2
+End of entry
+Entry-Ice-Glass Block
+1
+Silica
+2
+End of entry
+Entry-Ramp Block
+1
+Metal
+2
+End of entry
+Entry-Colored Panel
+1
+Metal
+2
+End of entry
