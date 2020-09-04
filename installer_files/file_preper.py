@@ -158,6 +158,7 @@ shutil.copy(base_directory+'/installer_files/python_installed_test.py' , 'C:/Com
 shutil.copy(base_directory+'/installer_files/python_installed_test_result.txt' , 'C:/Component-Calculator-TEMP/python_installed_test_result.txt')
 shutil.copy(base_directory+'/installer_files/license_copy.txt' , 'C:/Component-Calculator-TEMP/license.txt')
 shutil.copy(base_directory+'/installer_files/python-3.8.1-amd64-webinstall.exe' , 'C:/Component-Calculator-TEMP/python-3.8.1-amd64-webinstall.exe')
+shutil.copy(base_directory+'/launch.cmd' , 'C:/Component-Calculator-TEMP/launch.cmd')
 # copys the files needed to make the installer to the temp folder
 
 os.system('cmd /c "iexpress /N full_installer_config.SED"')
