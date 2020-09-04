@@ -158,7 +158,7 @@ def output_system(raw_output,database_settings):
     sorted_output_file.close()
     print('\nThis is your final output:\n',formated_output)
     # the input is so the progarm doesn't just close when its done
-    input('Press enter to close this window and open the output in a .txt file: ')
+    input('Press enter to close this window your output can be found in a .txt file called `sorted_output_file.txt` in your installation folder: ')
 
 # tells the user the loading is done
 print('\nLoading done!\n')
