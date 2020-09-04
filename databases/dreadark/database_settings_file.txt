@@ -1,4 +1,0 @@
-use stack calculation system (Yes/No)
-Yes
-stack size (Integer)
-16
