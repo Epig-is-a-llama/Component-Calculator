@@ -21,16 +21,16 @@ def create_folder(directory):
         pass
 
 try:
-    shutil.rmtree('C:/Component-Calculator')
+    shutil.rmtree('C:\\Component-Calculator')
 except Exception as e:
     pass
 # old contents of the program folder are cleared which the user is warned of before the installation takes place
 create_folder('C:/Component-Calculator')
 # creates the folder to install to
 
-create_folder('C:/Component-Calculator/Module-Installers')
+create_folder('C:/Component-Calculator/Addon-Installers')
 # creates the folder for the module installers to be unziped into
-unzip('Addon-Installers.zip' , 'C:/Component-Calculator/Module-Installers')
+unzip('Addon-Installers.zip' , 'C:/Component-Calculator/Addon-Installers')
 # unzips the module installers zip file into the correct location
 
 create_folder('C:/Component-Calculator/other-dependencys')
