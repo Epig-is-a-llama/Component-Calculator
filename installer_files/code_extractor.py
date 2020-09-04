@@ -35,7 +35,7 @@ unzip('Module-Installers.zip' , 'C:/Component-Calculator/Module-Installers')
 
 create_folder('C:/Component-Calculator/other-dependencys')
 # creates the folder for the other dependencys to be unziped to
-unzip(('Other-Files.zip' , 'C:/Component-Calculator/other-dependencys')
+unzip('Other-Files.zip' , 'C:/Component-Calculator/other-dependencys')
 # unzips the other dependencys into the correct folder
 
 shutil.copy('launch.cmd' , 'C:/Component-Calculator/launch.cmd')
