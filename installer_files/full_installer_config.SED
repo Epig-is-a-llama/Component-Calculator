@@ -37,6 +37,7 @@ FILE3="Other-files.zip"
 FILE4="python_installed_test.py"
 FILE5="python_installed_test_result.txt"
 FILE6="python-3.8.1-amd64-webinstall.exe"
+FILE7="launch.cmd"
 [SourceFiles]
 SourceFiles0=C:\Component-Calculator-TEMP\
 [SourceFiles0]
@@ -47,3 +48,4 @@ SourceFiles0=C:\Component-Calculator-TEMP\
 %FILE4%=
 %FILE5%=
 %FILE6%=
+%FILE7%=
