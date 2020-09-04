@@ -30,7 +30,7 @@ create_folder('C:/Component-Calculator')
 
 create_folder('C:/Component-Calculator/Module-Installers')
 # creates the folder for the module installers to be unziped into
-unzip('Module-Installers.zip' , 'C:/Component-Calculator/Module-Installers')
+unzip('Addon-Installers.zip' , 'C:/Component-Calculator/Module-Installers')
 # unzips the module installers zip file into the correct location
 
 create_folder('C:/Component-Calculator/other-dependencys')
