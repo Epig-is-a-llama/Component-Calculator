@@ -126,7 +126,10 @@ if major_version_num == last_major_version_num:
     shutil.copytree(base_directory+'/installers/'+major_version_num+'/databases/exe-installers' , base_directory+'/Addon-Installers')
     shutil.copytree(base_directory+'/installers/'+major_version_num+'/databases/zip-files' , base_directory+'/Addon-Installers/files-for-manual-installation')
     print('\nAs the format for the databases has not changed all databases from the preivous versions have been pulled forwards.\n')
-    os.remove(base_directory+'/Addon-Installers/Dev-tools-Module-Installer.EXE')
+    try:
+        os.remove(base_directory+'/Addon-Installers/Dev-tools-Module-Installer.EXE')
+    except OSError:
+        pass
     # removes the old version of the dev tools module so only the databases are pulled forwards
 
 else:
