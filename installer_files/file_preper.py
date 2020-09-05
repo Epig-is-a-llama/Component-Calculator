@@ -116,6 +116,8 @@ shutil.rmtree('C:/Component-Calculator-TEMP')
 create_folder('C:/Component-Calculator-TEMP')
 
 if os.path.exists(base_directory+'/Addon-Installers'):
+    if os.path.exists(base_directory+'/Addon-Installers/files-for-manual-installation'):
+        shutil.rmtree(base_directory+'/Addon-Installers/files-for-manual-installation')
     shutil.rmtree(base_directory+'/Addon-Installers')
     # only trys to remove the folder if it exists therefore clearing the folder to be populated as it needed
 
