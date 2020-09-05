@@ -122,7 +122,7 @@ if os.path.exists(base_directory+'/Addon-Installers'):
 if major_version_num == last_major_version_num:
     # if the major version number (the first part of the version number) has not changed the program will import the databases from the last version the user is then notified of this
     shutil.copytree(base_directory+'/installers/'+major_version_num+'/databases/exe-installers' , base_directory+'/Addon-Installers')
-    shutil.copytree(base_directory+'/insallers/'+major_version_num+'/databases/zip-files' , base_directory+'/Addon-Installers/files-for-manual-installation')
+    shutil.copytree(base_directory+'/installers/'+major_version_num+'/databases/zip-files' , base_directory+'/Addon-Installers/files-for-manual-installation')
     print('\nAs the format for the databases has not changed all databases from the preivous versions have been pulled forwards.\n')
     os.remove(base_directory+'/Addon-Installers/Dev-tools-Module-Installer.EXE')
     # removes the old version of the dev tools module so only the databases are pulled forwards
