@@ -1,3 +1,47 @@
+Entry-Wood Planks
+4
+Log
+1
+End of entry
+Entry-Stick
+4
+Planks
+2
+End of entry
+Entry-Torch
+4
+Stick
+1
+Coal
+1
+End of entry
+Entry-Crafting Table
+1
+Planks
+4
+End of entry
+Entry-Furnace
+1
+Cobblestone
+8
+End of entry
+Entry-Chest
+1
+Planks
+8
+End of entry
+Entry-Ladder
+3
+Stick
+7
+End of entry
+Entry-Fence
+3
+Planks
+4
+Stick
+2
+End of entry
 Entry-Wood Slab
 6
 Planks
@@ -6,6 +50,16 @@ End of entry
 Entry-Cobblestone Slab
 2
 Cobblestone
+1
+End of entry
+Entry-Brick Block
+1
+Bricks
+4
+End of entry
+Entry-Bricks
+1
+Clay
 1
 End of entry
 Entry-Stone Slab
@@ -147,5 +201,27 @@ Entry-Polished Blackstone Brick Slab
 2
 Polished Blackstone Bricks
 1
+End of entry
+Entry-Sign
+3
+Planks
+6
+Stick
+1
+End of entry
+Entry-Wood Door
+3
+Planks
+6
+End of entry
+Entry-Iron Door
+3
+Planks
+6
+End of entry
+Entry-Bark Block
+3
+Log
+4
 End of entry
 Entry-
