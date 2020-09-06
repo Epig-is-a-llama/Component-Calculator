@@ -1025,3 +1025,176 @@ Shulker Shell
 Chest
 1
 End of Entry
+Entry-Leather Helmet
+1
+Leather
+5
+End of Entry
+Entry-Iron Helmet
+1
+Iron
+5
+End of Entry
+Entry-Gold Helmet
+1
+Gold
+5
+End of Entry
+Entry-Diamond Helmet
+1
+Diamond
+5
+End of Entry
+Entry-Leather Chestplate
+1
+Leather
+8
+End of Entry
+Entry-Iron Chestplate
+1
+Iron
+8
+End of Entry
+Entry-Gold Chestplate
+1
+Gold
+8
+End of Entry
+Entry-Diamond Chestplate
+1
+Diamond
+8
+End of Entry
+Entry-Leather Leggings
+1
+Leather
+7
+End of Entry
+Entry-Iron Leggings
+1
+Iron
+7
+End of Entry
+Entry-Gold Leggings
+1
+Gold
+7
+End of Entry
+Entry-Diamond Leggings
+1
+Diamond
+7
+End of Entry
+Entry-Leather Boots
+1
+Leather
+4
+End of Entry
+Entry-Iron Boots
+1
+Iron
+4
+End of Entry
+Entry-Gold Boots
+1
+Gold
+4
+End of Entry
+Entry-Diamond Boots
+1
+Diamond
+4
+End of Entry
+Entry-Wood Sword
+1
+Stick
+1
+Planks
+2
+End of Entry
+Entry-Stone Sword
+1
+Stick
+1
+Cobblestone
+2
+End of Entry
+Entry-Iron Sword
+1
+Stick
+1
+Iron
+2
+End of Entry
+Entry-Gold Sword
+1
+Stick
+1
+Gold
+2
+End of Entry
+Entry-Diamond Sword
+1
+Stick
+1
+Diamond
+2
+End of Entry
+Entry-Bow
+1
+String
+3
+Stick
+3
+End of Entry
+Entry-Arrow
+4
+Flint
+1
+Stick
+1
+Feather
+1
+End of Entry
+Entry-Leather Horse Armor
+1
+Leather
+7
+End of Entry
+Entry-Shield
+1
+Planks
+6
+Iron
+1
+End of Entry
+Entry-Spectral Arrow
+2
+Arrow
+1
+Glowstone
+4
+End of Entry
+Entry-Conduit
+1
+Nautilus Shell
+8
+Heart of the Sea
+1
+End of Entry
+Entry-Turtle Shell
+1
+Scute
+5
+End of Entry
+Entry-Crossbow
+1
+Stick
+3
+String
+2
+Iron
+1
+Tripwire Hook
+1
+End of Entry
