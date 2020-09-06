@@ -527,6 +527,13 @@ Terracotta
 Yellow Dye
 1
 End of entry
+Entry-Lime Terracotta
+8
+Terracotta
+8
+Lime Dye
+1
+End of entry
 Entry-Pink Terracotta
 8
 Terracotta
