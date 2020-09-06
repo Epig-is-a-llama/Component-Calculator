@@ -294,7 +294,7 @@ Lapis Lazuli
 End of entry
 Entry-Diamond Block
 1
-Diamonds
+Diamond
 9
 End of entry
 Entry-Gold Block
