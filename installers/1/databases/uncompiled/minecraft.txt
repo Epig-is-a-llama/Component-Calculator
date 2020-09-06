@@ -224,7 +224,7 @@ Entry-Bark Block
 Log
 4
 End of entry
-Entry-Glowstone
+Entry-Glowstone Block
 1
 Glowstone
 4
