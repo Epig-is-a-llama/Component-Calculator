@@ -860,293 +860,293 @@ Entry-Netherite Block
 1
 Netherite
 9
-End of Entry
+End of entry
 Entry-Wood Pickaxe
 1
 Stick
 2
 Planks
 3
-End of Entry
+End of entry
 Entry-Cobblestone Pickaxe
 1
 Stick
 2
 Cobblestone
 3
-End of Entry
+End of entry
 Entry-Iron Pickaxe
 1
 Stick
 2
 Iron
 3
-End of Entry
+End of entry
 Entry-Gold Pickaxe
 1
 Stick
 2
 Gold
 3
-End of Entry
+End of entry
 Entry-Diamond Pickaxe
 1
 Stick
 2
 Diamond
 3
-End of Entry
+End of entry
 Entry-Wood Axe
 1
 Stick
 2
 Planks
 3
-End of Entry
+End of entry
 Entry-Stone Axe
 1
 Stick
 2
 Cobblestone
 3
-End of Entry
+End of entry
 Entry-Iron Axe
 1
 Stick
 2
 Iron
 3
-End of Entry
+End of entry
 Entry-Diamond Axe
 1
 Stick
 2
 Diamond
 3
-End of Entry
+End of entry
 Entry-Wood Shovel
 1
 Stick
 2
 Planks
 1
-End of Entry
+End of entry
 Entry-Stone Shovel
 1
 Stick
 2
 Cobblestone
 1
-End of Entry
+End of entry
 Entry-Iron Shovel
 1
 Stick
 2
 Iron
 1
-End of Entry
+End of entry
 Entry-Diamond Shovel
 1
 Stick
 2
 Diamond
 1
-End of Entry
+End of entry
 Entry-Wood Hoe
 1
 Stick
 2
 Planks
 2
-End of Entry
+End of entry
 Entry-Stone Hoe
 1
 Stick
 2
 Cobblestone
 2
-End of Entry
+End of entry
 Entry-Iron Hoe
 1
 Stick
 2
 Iron
 2
-End of Entry
+End of entry
 Entry-Diamond Hoe
 1
 Stick
 2
 Diamond
 2
-End of Entry
+End of entry
 Entry-Fishing Rod
 1
 Stick
 3
 String
 2
-End of Entry
+End of entry
 Entry-Flint & Steel
 1
 Iron
 1
 Flint
 1
-End of Entry
+End of entry
 Entry-Compass
 1
 Iron
 4
 Redstone
 1
-End of Entry
+End of entry
 Entry-Clock
 1
 Gold
 4
 Redstone
 1
-End of Entry
+End of entry
 Entry-Bucket
 1
 Iron
 3
-End of Entry
+End of entry
 Entry-Shears
 1
 Iron
 2
-End of Entry
+End of entry
 Entry-Shulker Box
 1
 Shulker Shell
 2
 Chest
 1
-End of Entry
+End of entry
 Entry-Leather Helmet
 1
 Leather
 5
-End of Entry
+End of entry
 Entry-Iron Helmet
 1
 Iron
 5
-End of Entry
+End of entry
 Entry-Gold Helmet
 1
 Gold
 5
-End of Entry
+End of entry
 Entry-Diamond Helmet
 1
 Diamond
 5
-End of Entry
+End of entry
 Entry-Leather Chestplate
 1
 Leather
 8
-End of Entry
+End of entry
 Entry-Iron Chestplate
 1
 Iron
 8
-End of Entry
+End of entry
 Entry-Gold Chestplate
 1
 Gold
 8
-End of Entry
+End of entry
 Entry-Diamond Chestplate
 1
 Diamond
 8
-End of Entry
+End of entry
 Entry-Leather Leggings
 1
 Leather
 7
-End of Entry
+End of entry
 Entry-Iron Leggings
 1
 Iron
 7
-End of Entry
+End of entry
 Entry-Gold Leggings
 1
 Gold
 7
-End of Entry
+End of entry
 Entry-Diamond Leggings
 1
 Diamond
 7
-End of Entry
+End of entry
 Entry-Leather Boots
 1
 Leather
 4
-End of Entry
+End of entry
 Entry-Iron Boots
 1
 Iron
 4
-End of Entry
+End of entry
 Entry-Gold Boots
 1
 Gold
 4
-End of Entry
+End of entry
 Entry-Diamond Boots
 1
 Diamond
 4
-End of Entry
+End of entry
 Entry-Wood Sword
 1
 Stick
 1
 Planks
 2
-End of Entry
+End of entry
 Entry-Stone Sword
 1
 Stick
 1
 Cobblestone
 2
-End of Entry
+End of entry
 Entry-Iron Sword
 1
 Stick
 1
 Iron
 2
-End of Entry
+End of entry
 Entry-Gold Sword
 1
 Stick
 1
 Gold
 2
-End of Entry
+End of entry
 Entry-Diamond Sword
 1
 Stick
 1
 Diamond
 2
-End of Entry
+End of entry
 Entry-Bow
 1
 String
 3
 Stick
 3
-End of Entry
+End of entry
 Entry-Arrow
 4
 Flint
@@ -1155,38 +1155,38 @@ Stick
 1
 Feather
 1
-End of Entry
+End of entry
 Entry-Leather Horse Armor
 1
 Leather
 7
-End of Entry
+End of entry
 Entry-Shield
 1
 Planks
 6
 Iron
 1
-End of Entry
+End of entry
 Entry-Spectral Arrow
 2
 Arrow
 1
 Glowstone
 4
-End of Entry
+End of entry
 Entry-Conduit
 1
 Nautilus Shell
 8
 Heart of the Sea
 1
-End of Entry
+End of entry
 Entry-Turtle Shell
 1
 Scute
 5
-End of Entry
+End of entry
 Entry-Crossbow
 1
 Stick
@@ -1197,66 +1197,66 @@ Iron
 1
 Tripwire Hook
 1
-End of Entry
+End of entry
 Entry-Wood Pressure Plate
 1
 Planks
 2
-End of Entry
+End of entry
 Entry-Stone Pressure Plate
 1
 Stone
 1
-End of Entry
+End of entry
 Entry-Polished Blackstone Pressure Plate
 1
 Polished Blackstone
 2
-End of Entry
+End of entry
 Entry-Iron Pressure Plate
 1
 Iron
 2
-End of Entry
+End of entry
 Entry-Gold Pressure Plate
 1
 Gold
 2
-End of Entry
+End of entry
 Entry-Wood Trapdoor
 2
 Planks
 6
-End of Entry
+End of entry
 Entry-Gate
 1
 Stick
 4
 Planks
 2
-End of Entry
+End of entry
 Entry-Wood Button
 1
 Planks
 1
-End of Entry
+End of entry
 Entry-Stone Button
 1
 Stone
 1
-End of Entry
+End of entry
 Entry-Polished Blackstone Button
 1
 Polished Blackstone
 1
-End of Entry
+End of entry
 Entry-Lever
 1
 Stick
 1
 Cobblestone
 1
-End of Entry
+End of entry
 Entry-Repeater
 1
 Redstone Torch
@@ -1265,21 +1265,21 @@ Stone
 3
 Redstone
 1
-End of Entry
+End of entry
 Entry-Redstone Torch
 1
 Redstone
 1
 Stick
 1
-End of Entry
+End of entry
 Entry-Jukebox
 1
 Planks
 8
 Diamond
 1
-End of Entry
+End of entry
 Entry-Dispenser
 1
 Cobblestone
@@ -1288,7 +1288,7 @@ Redstone
 1
 Bow
 1
-End of Entry
+End of entry
 Entry-Piston
 1
 Planks
@@ -1299,40 +1299,40 @@ Iron
 1
 Redstone
 1
-End of Entry
+End of entry
 Entry-Sticky Piston
 1
 Slimeball
 1
 Piston
 1
-End of Entry
+End of entry
 Entry-Minecart
 1
 Iron
 5
-End of Entry
+End of entry
 Entry-Furnace Minecart
 1
 Furnace
 1
 Minecart
 1
-End of Entry
+End of entry
 Entry-Chest Minecart
 1
 Chest
 1
 Minecart
 1
-End of Entry
+End of entry
 Entry-Rail
 16
 Iron
 6
 Stick
 1
-End of Entry
+End of entry
 Entry-Powered Rail
 6
 Gold
@@ -1341,7 +1341,7 @@ Stick
 1
 Redstone
 1
-End of Entry
+End of entry
 Entry-Detector Rail
 6
 Iron
@@ -1350,14 +1350,14 @@ Stone Pressure Plate
 1
 Redstone
 1
-End of Entry
+End of entry
 Entry-Redstone Lamp
 1
 Glowstone Block
 1
 Redstone
 4
-End of Entry
+End of entry
 Entry-Tripwire Hook
 2
 Iron
@@ -1366,7 +1366,7 @@ Stick
 1
 Planks
 1
-End of Entry
+End of entry
 Entry-Activator Rail
 6
 Iron
@@ -1375,7 +1375,7 @@ Stick
 2
 Redstone Torch
 1
-End of Entry
+End of entry
 Entry-Daylight Sensor
 1
 Wood Slab
@@ -1384,35 +1384,35 @@ Quartz
 3
 Glass
 3
-End of Entry
+End of entry
 Entry-Dropper
 1
 Cobblestone
 7
 Redstone
 1
-End of Entry
+End of entry
 Entry-Hopper
 1
 Iron
 5
 Chest
 1
-End of Entry
+End of entry
 Entry-Hopper Minecart
 1
 Hopper
 1
 Minecart
 1
-End of Entry
+End of entry
 Entry-TNT Minecart
 1
 TNT
 1
 Minecart
 1
-End of Entry
+End of entry
 Entry-Comparator
 1
 Quartz
@@ -1421,19 +1421,19 @@ Redstone Torch
 3
 Stone
 3
-End of Entry
+End of entry
 Entry-Trapped Chest
 1
 Chest
 1
 Tripwire Hook
 1
-End of Entry
+End of entry
 Entry-Iron Trapdoor
 1
 Iron
 4
-End of Entry
+End of entry
 Entry-Observer
 1
 Cobblestone
@@ -1442,19 +1442,19 @@ Redstone
 2
 Quartz
 1
-End of Entry
+End of entry
 Entry-Target
 1
 Redstone
 4
 Hay Bale
 1
-End of Entry
+End of entry
 Entry-Bowl
 4
 Planks
 3
-End of Entry
+End of entry
 Entry-Mushroom Stew
 1
 Bowl
@@ -1463,24 +1463,24 @@ Red Mushroom
 1
 Brown Mushroom
 1
-End of Entry
+End of entry
 Entry-Bread
 1
 Wheat
 3
-End of Entry
+End of entry
 Entry-Golden Apple
 1
 Gold
 8
 Apple
 1
-End of Entry
+End of entry
 Entry-Sugar
 1
 Sugar Cane
 1
-End of Entry
+End of entry
 Entry-Cake
 1
 Milk Bucket
@@ -1491,36 +1491,36 @@ Egg
 1
 Wheat
 3
-End of Entry
+End of entry
 Entry-Cookies
 8
 Wheat
 2
 Cocoa Beans
 1
-End of Entry
+End of entry
 Entry-Melon Block
 1
 Melon
 9
-End of Entry
+End of entry
 Entry-Melon Seeds
 1
 Melon
 1
-End of Entry
+End of entry
 Entry-Pumpkin Seeds
 4
 Pumpkin
 1
-End of Entry
+End of entry
 Entry-Golden Carrot
 1
 Golden Nugget
 8
 Carrot
 1
-End of Entry
+End of entry
 Entry-Pumpkin Pie
 1
 Pumpkin
@@ -1529,7 +1529,7 @@ Sugar
 1
 Egg
 1
-End of Entry
+End of entry
 Entry-Rabbit Stew
 1
 Cooked Rabbit
@@ -1542,243 +1542,243 @@ Baked Potato
 1
 Bowl
 1
-End of Entry
+End of entry
 Entry-White Bed
 1
 Planks
 3
 Wool
 3
-End of Entry
+End of entry
 Entry-Orange Bed
 1
 Planks
 3
 Orange Wool
 3
-End of Entry
+End of entry
 Entry-Magenta Bed
 1
 Planks
 3
 Magenta Wool
 3
-End of Entry
+End of entry
 Entry-Light Blue Bed
 1
 Planks
 3
 Light Blue Wool
 3
-End of Entry
+End of entry
 Entry-Yellow Bed
 1
 Planks
 3
 Yellow Wool
 3
-End of Entry
+End of entry
 Entry-Lime Bed
 1
 Planks
 3
 Lime Wool
 3
-End of Entry
+End of entry
 Entry-Pink Bed
 1
 Planks
 3
 Pink Wool
 3
-End of Entry
+End of entry
 Entry-Gray Bed
 1
 Planks
 3
 Gray Wool
 3
-End of Entry
+End of entry
 Entry-Light Gray Bed
 1
 Planks
 3
 Light Gray Wool
 3
-End of Entry
+End of entry
 Entry-Cyan Bed
 1
 Planks
 3
 Cyan Wool
 3
-End of Entry
+End of entry
 Entry-Purple Bed
 1
 Planks
 3
 Purple Wool
 3
-End of Entry
+End of entry
 Entry-Blue Bed
 1
 Planks
 3
 Blue Wool
 3
-End of Entry
+End of entry
 Entry-Brown Bed
 1
 Planks
 3
 Brown Wool
 3
-End of Entry
+End of entry
 Entry-Green Bed
 1
 Planks
 3
 Green Wool
 3
-End of Entry
+End of entry
 Entry-Red Bed
 1
 Planks
 3
 Red Wool
 3
-End of Entry
+End of entry
 Entry-Black Bed
 1
 Planks
 3
 Black Wool
 3
-End of Entry
+End of entry
 Entry-Orange Wool
 1
 Wool
 1
 Orange Dye
 1
-End of Entry
+End of entry
 Entry-Magenta Wool
 1
 Wool
 1
 Magenta Dye
 1
-End of Entry
+End of entry
 Entry-Light Blue Wool
 1
 Wool
 1
 Light Blue Dye
 1
-End of Entry
+End of entry
 Entry-Yellow Wool
 1
 Wool
 1
 Yellow Dye
 1
-End of Entry
+End of entry
 Entry-Lime Wool
 1
 Wool
 1
 Lime Dye
 1
-End of Entry
+End of entry
 Entry-Pink Wool
 1
 Wool
 1
 Pink Dye
 1
-End of Entry
+End of entry
 Entry-Gray Wool
 1
 Wool
 1
 Gray Dye
 1
-End of Entry
+End of entry
 Entry-Light Gray Wool
 1
 Wool
 1
 Light Gray Dye
 1
-End of Entry
+End of entry
 Entry-Cyan Wool
 1
 Wool
 1
 Cyan Dye
 1
-End of Entry
+End of entry
 Entry-Purple Wool
 1
 Wool
 1
 Purple Dye
 1
-End of Entry
+End of entry
 Entry-Blue Wool
 1
 Wool
 1
 Blue Dye
 1
-End of Entry
+End of entry
 Entry-Brown Wool
 1
 Wool
 1
 Brown Dye
 1
-End of Entry
+End of entry
 Entry-Green Wool
 1
 Wool
 1
 Green Dye
 1
-End of Entry
+End of entry
 Entry-Red Wool
 1
 Wool
 1
 Red Dye
 1
-End of Entry
+End of entry
 Entry-Black Wool
 1
 Wool
 1
 Black Dye
 1
-End of Entry
+End of entry
 Entry-Painting
 1
 Stick
 8
 Wool
 1
-End of Entry
+End of entry
 Entry-Paper
 3
 Sugar Cane
 3
-End of Entry
+End of entry
 Entry-Book
 1
 Paper
 3
 Leather
 1
-End of Entry
+End of entry
 Entry-Book and Quill
 1
 Book
@@ -1787,38 +1787,38 @@ Ink Sac
 1
 Feather
 1
-End of Entry
+End of entry
 Entry-Map
 1
 Compass
 1
 Paper
 8
-End of Entry
+End of entry
 Entry-Iron Bars
 16
 Iron
 6
-End of Entry
+End of entry
 Entry-Gold Nugget
 9
 Gold
 1
-End of Entry
+End of entry
 Entry-Nether Brick Fence
 6
 Nether Bricks
 4
 Nether Brick
 2
-End of Entry
+End of entry
 Entry-Eye of Ender
 1
 Ender Pearl
 1
 Blaze Powder
 1
-End of Entry
+End of entry
 Entry-Enchantment Table
 1
 Book
@@ -1827,7 +1827,7 @@ Diamond
 2
 Obsidian
 4
-End of Entry
+End of entry
 Entry-Fire Charge
 3
 Blaze Powder
@@ -1836,14 +1836,14 @@ Coal
 1
 Gunpowder
 1
-End of Entry
+End of entry
 Entry-Ender Chest
 1
 Obsidian
 8
 Eye of Ender
 1
-End of Entry
+End of entry
 Entry-Beacon
 1
 Glass
@@ -1852,61 +1852,61 @@ Nether Star
 1
 Obsidian
 3
-End of Entry
+End of entry
 Entry-Anvil
 1
 Iron Block
 3
 Iron
 4
-End of Entry
+End of entry
 Entry-Flower Pot
 1
 Brick
 3
-End of Entry
+End of entry
 Entry-Item Frame
 1
 Stick
 8
 Leather
 1
-End of Entry
+End of entry
 Entry-Carrot on a Stick
 1
 Fishing Rod
 1
 Carrot
 1
-End of Entry
+End of entry
 Entry-Warped Fungus on a Stick
 1
 Fishing Rod
 1
 Warped Fungus
 1
-End of Entry
+End of entry
 Entry-Lead
 2
 String
 4
 Slimeball
 1
-End of Entry
+End of entry
 Entry-Armor Stand
 1
 Smooth Stone Slab
 1
 Stick
 6
-End of Entry
+End of entry
 Entry-End Rod
 4
 Blaze Rod
 1
 Popped Chorus Fruit
 1
-End of Entry
+End of entry
 Entry-End Crystal
 1
 Glass
@@ -1915,12 +1915,12 @@ Eye of Ender
 1
 Ghast Tear
 1
-End of Entry
+End of entry
 Entry-Iron Nugget
 9
 Iron
 1
-End of Entry
+End of entry
 Entry-Campfire
 1
 Log
@@ -1929,7 +1929,7 @@ Stick
 3
 Coal
 1
-End of Entry
+End of entry
 Entry-Soul Campfire
 1
 Log
@@ -1938,21 +1938,21 @@ Stick
 3
 Soul Soil
 1
-End of Entry
+End of entry
 Entry-Scaffolding
 6
 Bamboo
 6
 String
 1
-End of Entry
+End of entry
 Entry-Barrel
 1
 Planks
 6
 Wood Slab
 2
-End of Entry
+End of entry
 Entry-Blast Furnace
 1
 Iron
@@ -1961,47 +1961,47 @@ Furnace
 1
 Smooth Stone
 3
-End of Entry
+End of entry
 Entry-Smoker
 1
 Furnace
 1
 Log
 4
-End of Entry
+End of entry
 Entry-Cartography Table
 1
 Paper
 2
 Planks
 4
-End of Entry
+End of entry
 Entry-Composter
 1
 Wood Slab
 7
-End of Entry
+End of entry
 Entry-Fletching Table
 1
 Flint
 2
 Planks
 4
-End of Entry
+End of entry
 Entry-Smithing Table
 1
 Iron
 2
 Planks
 4
-End of Entry
+End of entry
 Entry-Stonecutter
 1
 Iron
 1
 Stone
 3
-End of Entry
+End of entry
 Entry-Grindstone
 1
 Stick
@@ -2010,70 +2010,70 @@ Planks
 2
 Stone Slab
 1
-End of Entry
+End of entry
 Entry-Lantern
 1
 Iron Nugget
 8
 Torch
 1
-End of Entry
+End of entry
 Entry-Soul Lantern
 1
 Iron Nugget
 8
 Soul Torch
 1
-End of Entry
+End of entry
 Entry-Lectern
 1
 Wood Slab
 4
 Bookshelf
 1
-End of Entry
+End of entry
 Entry-Loom
 1
 String
 2
 Planks
 2
-End of Entry
+End of entry
 Entry-Beehive
 1
 Planks
 6
 Honeycomb
 3
-End of Entry
+End of entry
 Entry-Netherite
 1
 Netherite Scrap
 4
 Gold
 4
-End of Entry
+End of entry
 Entry-Chain
 1
 Iron Nugget
 2
 Iron
 1
-End of Entry
+End of entry
 Entry-Respawn Anchor
 1
 Crying Obsidian
 6
 Glowstone Block
 3
-End of Entry
+End of entry
 Entry-Lodestone
 1
 Netherite
 1
 Chiseled Stone Brick
 8
-End of Entry
+End of entry
 Entry-Soul Torch
 4
 Coal
@@ -2082,7 +2082,7 @@ Stick
 1
 Soul Soil
 1
-End of Entry
+End of entry
 Entry-White Concreate Powder
 8
 Sand
@@ -2091,7 +2091,7 @@ Gravel
 4
 White Dye
 1
-End of Entry
+End of entry
 Entry-Orange Concreate Powder
 8
 Sand
@@ -2100,7 +2100,7 @@ Gravel
 4
 Orange Dye
 1
-End of Entry
+End of entry
 Entry-Magenta Concreate Powder
 8
 Sand
@@ -2109,7 +2109,7 @@ Gravel
 4
 Magenta Dye
 1
-End of Entry
+End of entry
 Entry-Light Blue Concreate Powder
 8
 Sand
@@ -2118,7 +2118,7 @@ Gravel
 4
 Light Blue Dye
 1
-End of Entry
+End of entry
 Entry-Yellow Concreate Powder
 8
 Sand
@@ -2127,7 +2127,7 @@ Gravel
 4
 Yellow Dye
 1
-End of Entry
+End of entry
 Entry-Lime Concreate Powder
 8
 Sand
@@ -2136,7 +2136,7 @@ Gravel
 4
 Lime Dye
 1
-End of Entry
+End of entry
 Entry-Pink Concreate Powder
 8
 Sand
@@ -2145,7 +2145,7 @@ Gravel
 4
 Pink Dye
 1
-End of Entry
+End of entry
 Entry-Gray Concreate Powder
 8
 Sand
@@ -2154,7 +2154,7 @@ Gravel
 4
 Gray Dye
 1
-End of Entry
+End of entry
 Entry-Light Gray Concreate Powder
 8
 Sand
@@ -2163,7 +2163,7 @@ Gravel
 4
 Light Gray Dye
 1
-End of Entry
+End of entry
 Entry-Cyan Concreate Powder
 8
 Sand
@@ -2172,7 +2172,7 @@ Gravel
 4
 Cyan Dye
 1
-End of Entry
+End of entry
 Entry-Purple Concreate Powder
 8
 Sand
@@ -2181,7 +2181,7 @@ Gravel
 4
 Purple Dye
 1
-End of Entry
+End of entry
 Entry-Blue Concreate Powder
 8
 Sand
@@ -2190,7 +2190,7 @@ Gravel
 4
 Blue Dye
 1
-End of Entry
+End of entry
 Entry-Brown Concreate Powder
 8
 Sand
@@ -2199,7 +2199,7 @@ Gravel
 4
 Brown Dye
 1
-End of Entry
+End of entry
 Entry-Green Concreate Powder
 8
 Sand
@@ -2208,7 +2208,7 @@ Gravel
 4
 Green Dye
 1
-End of Entry
+End of entry
 Entry-Red Concreate Powder
 8
 Sand
@@ -2217,7 +2217,7 @@ Gravel
 4
 Red Dye
 1
-End of Entry
+End of entry
 Entry-Black Concreate Powder
 8
 Sand
@@ -2226,393 +2226,393 @@ Gravel
 4
 Black Dye
 1
-End of Entry
+End of entry
 Entry-White Concreate
 1
 White Concreate Powder
 1
-End of Entry
+End of entry
 Entry-Orange Concreate
 1
 Orange Concreate Powder
 1
-End of Entry
+End of entry
 Entry-Magenta Concreate
 1
 Magenta Concreate Powder
 1
-End of Entry
+End of entry
 Entry-Light Blue Concreate
 1
 Light Blue Concreate Powder
 1
-End of Entry
+End of entry
 Entry-Yellow Concreate
 1
 Yellow Concreate Powder
 1
-End of Entry
+End of entry
 Entry-Lime Concreate
 1
 Lime Concreate Powder
 1
-End of Entry
+End of entry
 Entry-Pink Concreate
 1
 Pink Concreate Powder
 1
-End of Entry
+End of entry
 Entry-Gray Concreate
 1
 Gray Concreate Powder
 1
-End of Entry
+End of entry
 Entry-Light Gray Concreate
 1
 Light Gray Concreate Powder
 1
-End of Entry
+End of entry
 Entry-Cyan Concreate
 1
 Cyan Concreate Powder
 1
-End of Entry
+End of entry
 Entry-Purple Concreate
 1
 Purple Concreate Powder
 1
-End of Entry
+End of entry
 Entry-Blue Concreate
 1
 Blue Concreate Powder
 1
-End of Entry
+End of entry
 Entry-Brown Concreate
 1
 Brown Concreate Powder
 1
-End of Entry
+End of entry
 Entry-Green Concreate
 1
 Green Concreate Powder
 1
-End of Entry
+End of entry
 Entry-Red Concreate
 1
 Red Concreate Powder
 1
-End of Entry
+End of entry
 Entry-Black Concreate
 1
 Black Concreate Powder
 1
-End of Entry
+End of entry
 Entry-White Stained Glass
 8
 Glass
 8
 White Dye
 1
-End of Entry
+End of entry
 Entry-Orange Stained Glass
 8
 Glass
 8
 Orange Dye
 1
-End of Entry
+End of entry
 Entry-Magenta Stained Glass
 8
 Glass
 8
 Magenta Dye
 1
-End of Entry
+End of entry
 Entry-Light Blue Stained Glass
 8
 Glass
 8
 Light Blue Dye
 1
-End of Entry
+End of entry
 Entry-Yellow Stained Glass
 8
 Glass
 8
 Yellow Dye
 1
-End of Entry
+End of entry
 Entry-Lime Stained Glass
 8
 Glass
 8
 Lime Dye
 1
-End of Entry
+End of entry
 Entry-Pink Stained Glass
 8
 Glass
 8
 Pink Dye
 1
-End of Entry
+End of entry
 Entry-Gray Stained Glass
 8
 Glass
 8
 Gray Dye
 1
-End of Entry
+End of entry
 Entry-Light Gray Stained Glass
 8
 Glass
 8
 Light Gray Dye
 1
-End of Entry
+End of entry
 Entry-Cyan Stained Glass
 8
 Glass
 8
 Cyan Dye
 1
-End of Entry
+End of entry
 Entry-Purple Stained Glass
 8
 Glass
 8
 Purple Dye
 1
-End of Entry
+End of entry
 Entry-Blue Stained Glass
 8
 Glass
 8
 Blue Dye
 1
-End of Entry
+End of entry
 Entry-Brown Stained Glass
 8
 Glass
 8
 Brown Dye
 1
-End of Entry
+End of entry
 Entry-Green Stained Glass
 8
 Glass
 8
 Green Dye
 1
-End of Entry
+End of entry
 Entry-Red Stained Glass
 8
 Glass
 8
 Red Dye
 1
-End of Entry
+End of entry
 Entry-Black Stained Glass
 8
 Glass
 8
 Black Dye
 1
-End of Entry
+End of entry
 Entry-Glass Pane
 16
 Glass
 6
-End of Entry
+End of entry
 Entry-White Stained Glass Pane
 16
 White Stained Glass
 6
-End of Entry
+End of entry
 Entry-Orange Stained Glass Pane
 16
 Orange Stained Glass
 6
-End of Entry
+End of entry
 Entry-Magenta Stained Glass Pane
 16
 Magenta Stained Glass
 6
-End of Entry
+End of entry
 Entry-Light Blue Stained Glass Pane
 16
 Light Blue Stained Glass
 6
-End of Entry
+End of entry
 Entry-Yellow Stained Glass Pane
 16
 Yellow Stained Glass
 6
-End of Entry
+End of entry
 Entry-Lime Stained Glass Pane
 16
 Lime Stained Glass
 6
-End of Entry
+End of entry
 Entry-Pink Stained Glass Pane
 16
 Pink Stained Glass
 6
-End of Entry
+End of entry
 Entry-Gray Stained Glass Pane
 16
 Gray Stained Glass
 6
-End of Entry
+End of entry
 Entry-Light Gray Stained Glass Pane
 16
 Light Gray Stained Glass
 6
-End of Entry
+End of entry
 Entry-Cyan Stained Glass Pane
 16
 Cyan Stained Glass
 6
-End of Entry
+End of entry
 Entry-Purple Stained Glass Pane
 16
 Purple Stained Glass
 6
-End of Entry
+End of entry
 Entry-Blue Stained Glass Pane
 16
 Blue Stained Glass
 6
-End of Entry
+End of entry
 Entry-Brown Stained Glass Pane
 16
 Brown Stained Glass
 6
-End of Entry
+End of entry
 Entry-Green Stained Glass Pane
 16
 Green Stained Glass
 6
-End of Entry
+End of entry
 Entry-Red Stained Glass Pane
 16
 Red Stained Glass
 6
-End of Entry
+End of entry
 Entry-Black Stained Glass Pane
 16
 Black Stained Glass
 6
-End of Entry
+End of entry
 Entry-White Carpet
 3
 Wool
 2
-End of Entry
+End of entry
 Entry-Orange Carpet
 3
 Orange Wool
 2
-End of Entry
+End of entry
 Entry-Magenta Carpet
 3
 Magenta Wool
 2
-End of Entry
+End of entry
 Entry-Light Blue Carpet
 3
 Light Blue Wool
 2
-End of Entry
+End of entry
 Entry-Yellow Carpet
 3
 Yellow Wool
 2
-End of Entry
+End of entry
 Entry-Lime Carpet
 3
 Lime Wool
 2
-End of Entry
+End of entry
 Entry-Pink Carpet
 3
 Pink Wool
 2
-End of Entry
+End of entry
 Entry-Gray Carpet
 3
 Gray Wool
 2
-End of Entry
+End of entry
 Entry-Light Gray Carpet
 3
 Light Gray Wool
 2
-End of Entry
+End of entry
 Entry-Cyan Carpet
 3
 Cyan Wool
 2
-End of Entry
+End of entry
 Entry-Purple Carpet
 3
 Purple Wool
 2
-End of Entry
+End of entry
 Entry-Blue Carpet
 3
 Blue Wool
 2
-End of Entry
+End of entry
 Entry-Brown Carpet
 3
 Brown Wool
 2
-End of Entry
+End of entry
 Entry-Green Carpet
 3
 Green Wool
 2
-End of Entry
+End of entry
 Entry-Red Carpet
 3
 Red Wool
 2
-End of Entry
+End of entry
 Entry-Black Carpet
 3
 Black Wool
 2
-End of Entry
+End of entry
 Entry-Bottle
 3
 Glass
 3
-End of Entry
+End of entry
 Entry-Cauldron
 1
 Iron
 7
-End of Entry
+End of entry
 Entry-Brewing Stand
 1
 Blaze Rod
 1
 Cobblestone
 3
-End of Entry
+End of entry
 Entry-Blaze Powder
 2
 Blaze Rod
 1
-End of Entry
+End of entry
 Entry-Magma Cream
 1
 Slimeball
 1
 Blaze Powder
 1
-End of Entry
+End of entry
 Entry-Fermented Spider Eye
 1
 Spider Eye
@@ -2621,106 +2621,106 @@ Brown Mushroom
 1
 Sugar
 1
-End of Entry
+End of entry
 Entry-Glistering Melon
 1
 Melon
 1
 Gold Nugget
 8
-End of Entry
+End of entry
 Entry-Cooked Porkchop
 1
 Raw Porkchop
 1
-End of Entry
+End of entry
 Entry-Steak
 1
 Raw Beef
 1
-End of Entry
+End of entry
 Entry-Cooked Chicken
 1
 Raw Chicken
 1
-End of Entry
+End of entry
 Entry-Cooked Cod
 1
 Raw Cod
 1
-End of Entry
+End of entry
 Entry-Cooked Salmon
 1
 Raw Salmon
 1
-End of Entry
+End of entry
 Entry-Baked Potato
 1
 Potato
 1
-End of Entry
+End of entry
 Entry-Cooked Mutton
 1
 Raw Mutton
 1
-End of Entry
+End of entry
 Entry-Cooked Rabbit
 1
 Raw Rabbit
 1
-End of Entry
+End of entry
 Entry-Dried Kelp
 1
 Kelp
 1
-End of Entry
+End of entry
 Entry-Glass
 1
 Sand
 1
-End of Entry
+End of entry
 Entry-Stone
 1
 Cobblestone
 1
-End of Entry
+End of entry
 Entry-Smooth Sandstone
 1
 Sandstone
 1
-End of Entry
+End of entry
 Entry-Smooth Red Sandstone
 1
 Red Sandstone
 1
-End of Entry
+End of entry
 Entry-Smooth Stone
 1
 Stone
 1
-End of Entry
+End of entry
 Entry-Smooth Quartz
 1
 Quartz
 1
-End of Entry
+End of entry
 Entry-Nether Brick
 1
 Netherrack
 1
-End of Entry
+End of entry
 Entry-Cracked Nether Bricks
 1
 Nether Bricks
 1
-End of Entry
+End of entry
 Entry-Cracked Stone Bricks
 1
 Stone Bricks
 1
-End of Entry
+End of entry
 Entry-Popped Chorus Fruit
 1
 Chorus Fruit
 1
-End of Entry
+End of entry
