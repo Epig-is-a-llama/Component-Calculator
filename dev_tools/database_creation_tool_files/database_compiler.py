@@ -90,12 +90,9 @@ print('\nCreating a zip file containing the database...\n')
 database_location = 'C:/Component-Calculator/dev_tools/compiled_databases/database-to-pack/'
 # works out the location of the folder containing the database and then executes the code to zip it then notifies the user
 shutil.make_archive('database', 'zip', database_location)
-original = r'database.zip'
-target_1 = 'C:/Component-Calculator/dev_tools/compiled_databases/'+database_name+'.zip'
-target_2 = 'C:/Component-Calculator/dev_tools/database_creation_tool_files/database.zip'
-shutil.copyfile(original, target_1)
-shutil.copyfile(original, target_2)
-os.remove('database.zip')
+original = 'database.zip'
+target = 'C:/Component-Calculator/dev_tools/compiled_databases/'+database_name+'.zip'
+shutil.copyfile(original, target)
 shutil.rmtree('C:/Component-Calculator/dev_tools/compiled_databases/database-to-pack/'+database_name)
 print('\nDatabase zipped into a .zip file with the name of the database as its name.')
 print('\nCreating a .EXE installer for the database...')
@@ -113,7 +110,7 @@ for x in range(0, len(exe_config_list)):
 exe_config_file.close()
 os.system('cmd /c "iexpress /N C:\Component-Calculator\dev_tools\database_creation_tool_files\pack_installer_config.SED"')
 # deletes the temporary file which is used to house the database while it is being put into the database installer
-os.remove('C:/Component-Calculator/dev_tools/database_creation_tool_files/database.zip')
+os.remove('database.zip')
 # tells the user the .exe file has been made and tells them they may now close the program
 print('\n.EXE installer for the database created with the name set as: `'+database_name+' installer` when run this will automaticly install the database onto the computer if they have the base program already installed if it does not it will direct them to do so to use this database.\n')
 input('Now that the database has been fully processed and saved to the compiled database folder you may now press enter to exit: ')
