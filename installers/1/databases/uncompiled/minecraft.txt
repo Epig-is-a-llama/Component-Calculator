@@ -2083,3 +2083,147 @@ Stick
 Soul Soil
 1
 End of Entry
+Entry-White Concreate Powder
+8
+Sand
+4
+Gravel
+4
+White Dye
+1
+End of Entry
+Entry-Orange Concreate Powder
+8
+Sand
+4
+Gravel
+4
+Orange Dye
+1
+End of Entry
+Entry-Magenta Concreate Powder
+8
+Sand
+4
+Gravel
+4
+Magenta Dye
+1
+End of Entry
+Entry-Light Blue Concreate Powder
+8
+Sand
+4
+Gravel
+4
+Light Blue Dye
+1
+End of Entry
+Entry-Yellow Concreate Powder
+8
+Sand
+4
+Gravel
+4
+Yellow Dye
+1
+End of Entry
+Entry-Lime Concreate Powder
+8
+Sand
+4
+Gravel
+4
+Lime Dye
+1
+End of Entry
+Entry-Pink Concreate Powder
+8
+Sand
+4
+Gravel
+4
+Pink Dye
+1
+End of Entry
+Entry-Gray Concreate Powder
+8
+Sand
+4
+Gravel
+4
+Gray Dye
+1
+End of Entry
+Entry-Light Gray Concreate Powder
+8
+Sand
+4
+Gravel
+4
+Light Gray Dye
+1
+End of Entry
+Entry-Cyan Concreate Powder
+8
+Sand
+4
+Gravel
+4
+Cyan Dye
+1
+End of Entry
+Entry-Purple Concreate Powder
+8
+Sand
+4
+Gravel
+4
+Purple Dye
+1
+End of Entry
+Entry-Blue Concreate Powder
+8
+Sand
+4
+Gravel
+4
+Blue Dye
+1
+End of Entry
+Entry-Brown Concreate Powder
+8
+Sand
+4
+Gravel
+4
+Brown Dye
+1
+End of Entry
+Entry-Green Concreate Powder
+8
+Sand
+4
+Gravel
+4
+Green Dye
+1
+End of Entry
+Entry-Red Concreate Powder
+8
+Sand
+4
+Gravel
+4
+Red Dye
+1
+End of Entry
+Entry-Black Concreate Powder
+8
+Sand
+4
+Gravel
+4
+Black Dye
+1
+End of Entry
