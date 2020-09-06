@@ -1,4 +1,4 @@
-Entry-Wood Planks
+Entry-Planks
 4
 Log
 1
