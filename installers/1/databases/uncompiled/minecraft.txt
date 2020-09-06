@@ -322,6 +322,136 @@ Entry-Stone Bricks
 Stone
 1
 End of entry
+Entry-Wood Stairs
+1
+Planks
+1
+End of entry
+Entry-Cobblestone Stairs
+1
+Cobblestone
+1
+End of entry
+Entry-Sandstone Stairs
+1
+Sandstone
+1
+End of entry
+Entry-Brick Stairs
+1
+Brick Block
+1
+End of entry
+Entry-Stone Brick
+1
+Stone Bricks
+1
+End of entry
+Entry-Nether Brick Stairs
+1
+Nether Brick
+1
+End of entry
+Entry-Quartz Stairs
+1
+Quartz
+1
+End of entry
+Entry-Red Sandstone Stairs
+1
+Red Sandstone
+1
+End of entry
+Entry-Stone Stairs
+1
+Stone
+1
+End of entry
+Entry-Mossy Cobblestone Stairs
+1
+Mossy Cobblestone
+1
+End of entry
+Entry-Mossy Stone Brick Stairs
+1
+Mossy Stone Bricks
+1
+End of entry
+Entry-Andesite Stairs
+1
+Andesite
+1
+End of entry
+Entry-Polished Andesite Stairs
+1
+Polished Andesite
+1
+End of entry
+Entry-Diorite Stairs
+1
+Diorite
+1
+End of entry
+Entry-Polished Diorite Stairs
+1
+Polished Diorite
+1
+End of entry
+Entry-Granite Stairs
+1
+Granite
+1
+End of entry
+Entry-Polished Granite Stairs
+1
+Polished Granite
+1
+End of entry
+Entry-Prismarine Stairs
+1
+Prismarine
+1
+End of entry
+Entry-Prismarine Brick Stairs
+1
+Prismarine Bricks
+1
+End of entry
+Entry-Dark Prismarine Stairs
+1
+Dark Prismarine
+1
+End of entry
+Entry-Smooth Quartz Stairs
+1
+Smooth Quartz Block
+1
+End of entry
+Entry-Purpur Stairs
+1
+Purpur Block
+1
+End of entry
+Entry-End Stone Brick Stairs
+1
+End Stone Brick Stairs
+1
+End of entry
+Entry-Blackstone Stairs
+1
+Blackstone
+1
+End of entry
+Entry-Polished Blackstone Stairs
+1
+Polished Blackstone
+1
+End of entry
+Entry-Polished Blackstone Brick Stairs
+1
+Polished Blackstone Bricks
+1
+End of entry
 Entry-Cobblestone Wall
 1
 Cobblestone
