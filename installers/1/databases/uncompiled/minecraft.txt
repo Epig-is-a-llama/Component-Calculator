@@ -224,4 +224,137 @@ Entry-Bark Block
 Log
 4
 End of entry
+Entry-Glowstone
+1
+Glowstone
+4
+End of entry
+Entry-Snow Block
+1
+Snowballs
+4
+End of entry
+Entry-TNT
+1
+Sand
+4
+Gunpowder
+5
+End of entry
+Entry-Clay Block
+1
+Clay
+4
+End of entry
+Entry-Bookshelf
+1
+Planks
+6
+Book
+3
+End of entry
+Entry-Sandstone
+1
+Sand
+4
+End of entry
+Entry-Smooth Sandstone
+1
+Sandstone
+1
+End of entry
+Entry-Cut Sandstone
+1
+Sandstone
+1
+End of entry
+Entry-Chiseled Sandstone
+1
+Sandstone Slab
+2
+End of entry
+Entry-Note Block
+1
+Planks
+8
+Redstone
+1
+End of entry
+Entry-Jack-O Lantern
+1
+Pumpkin
+1
+Torch
+1
+End of entry
+Entry-Lapis Lazuli Block
+1
+Lapis Lazuli
+9
+End of entry
+Entry-Diamond Block
+1
+Diamonds
+9
+End of entry
+Entry-Gold Block
+1
+Gold
+9
+End of entry
+Entry-Iron Block
+1
+Iron
+9
+End of entry
+Entry-Emerald Block
+1
+Emerald
+9
+End of entry
+Entry-Coal Block
+1
+Coal
+9
+End of entry
+Entry-Stone Bricks
+1
+Stone
+1
+End of entry
+Entry-Cobblestone Wall
+1
+Cobblestone
+1
+End of entry
+Entry-Mossy Cobblestone Wall
+1
+Mossy Cobblestone
+1
+End of entry
+Entry-Redstone Block
+1
+Redstone
+9
+End of entry
+Entry-Quartz Block
+1
+Quartz
+4
+End of entry
+Entry-Chiseled Quartz Block
+1
+Quartz Block
+1
+End of entry
+Entry-Quartz Pillar
+1
+Quartz
+1
+End of entry
+Entry-Quartz Bricks
+1
+Quartz Block
+1
+End of entry
 Entry-
