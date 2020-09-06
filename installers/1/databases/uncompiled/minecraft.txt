@@ -1760,3 +1760,326 @@ Wool
 Black Dye
 1
 End of Entry
+Entry-Painting
+1
+Stick
+8
+Wool
+1
+End of Entry
+Entry-Paper
+3
+Sugar Cane
+3
+End of Entry
+Entry-Book
+1
+Paper
+3
+Leather
+1
+End of Entry
+Entry-Book and Quill
+1
+Book
+1
+Ink Sac
+1
+Feather
+1
+End of Entry
+Entry-Map
+1
+Compass
+1
+Paper
+8
+End of Entry
+Entry-Iron Bars
+16
+Iron
+6
+End of Entry
+Entry-Gold Nugget
+9
+Gold
+1
+End of Entry
+Entry-Nether Brick Fence
+6
+Nether Bricks
+4
+Nether Brick
+2
+End of Entry
+Entry-Eye of Ender
+1
+Ender Pearl
+1
+Blaze Powder
+1
+End of Entry
+Entry-Enchantment Table
+1
+Book
+1
+Diamond
+2
+Obsidian
+4
+End of Entry
+Entry-Fire Charge
+3
+Blaze Powder
+1
+Coal
+1
+Gunpowder
+1
+End of Entry
+Entry-Ender Chest
+1
+Obsidian
+8
+Eye of Ender
+1
+End of Entry
+Entry-Beacon
+1
+Glass
+5
+Nether Star
+1
+Obsidian
+3
+End of Entry
+Entry-Anvil
+1
+Iron Block
+3
+Iron
+4
+End of Entry
+Entry-Flower Pot
+1
+Brick
+3
+End of Entry
+Entry-Item Frame
+1
+Stick
+8
+Leather
+1
+End of Entry
+Entry-Carrot on a Stick
+1
+Fishing Rod
+1
+Carrot
+1
+End of Entry
+Entry-Warped Fungus on a Stick
+1
+Fishing Rod
+1
+Warped Fungus
+1
+End of Entry
+Entry-Lead
+2
+String
+4
+Slimeball
+1
+End of Entry
+Entry-Armor Stand
+1
+Smooth Stone Slab
+1
+Stick
+6
+End of Entry
+Entry-End Rod
+4
+Blaze Rod
+1
+Popped Chorus Fruit
+1
+End of Entry
+Entry-End Crystal
+1
+Glass
+7
+Eye of Ender
+1
+Ghast Tear
+1
+End of Entry
+Entry-Iron Nugget
+9
+Iron
+1
+End of Entry
+Entry-Campfire
+1
+Log
+3
+Stick
+3
+Coal
+1
+End of Entry
+Entry-Soul Campfire
+1
+Log
+3
+Stick
+3
+Soul Soil
+1
+End of Entry
+Entry-Scaffolding
+6
+Bamboo
+6
+String
+1
+End of Entry
+Entry-Barrel
+1
+Planks
+6
+Wood Slab
+2
+End of Entry
+Entry-Blast Furnace
+1
+Iron
+5
+Furnace
+1
+Smooth Stone
+3
+End of Entry
+Entry-Smoker
+1
+Furnace
+1
+Log
+4
+End of Entry
+Entry-Cartography Table
+1
+Paper
+2
+Planks
+4
+End of Entry
+Entry-Composter
+1
+Wood Slab
+7
+End of Entry
+Entry-Fletching Table
+1
+Flint
+2
+Planks
+4
+End of Entry
+Entry-Smithing Table
+1
+Iron
+2
+Planks
+4
+End of Entry
+Entry-Stonecutter
+1
+Iron
+1
+Stone
+3
+End of Entry
+Entry-Grindstone
+1
+Stick
+2
+Planks
+2
+Stone Slab
+1
+End of Entry
+Entry-Lantern
+1
+Iron Nugget
+8
+Torch
+1
+End of Entry
+Entry-Soul Lantern
+1
+Iron Nugget
+8
+Soul Torch
+1
+End of Entry
+Entry-Lectern
+1
+Wood Slab
+4
+Bookshelf
+1
+End of Entry
+Entry-Loom
+1
+String
+2
+Planks
+2
+End of Entry
+Entry-Beehive
+1
+Planks
+6
+Honeycomb
+3
+End of Entry
+Entry-Netherite
+1
+Netherite Scrap
+4
+Gold
+4
+End of Entry
+Entry-Chain
+1
+Iron Nugget
+2
+Iron
+1
+End of Entry
+Entry-Respawn Anchor
+1
+Crying Obsidian
+6
+Glowstone Block
+3
+End of Entry
+Entry-Lodestone
+1
+Netherite
+1
+Chiseled Stone Brick
+8
+End of Entry
+Entry-Soul Torch
+4
+Coal
+1
+Stick
+1
+Soul Soil
+1
+End of Entry
