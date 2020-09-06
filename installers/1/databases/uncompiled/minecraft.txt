@@ -858,7 +858,7 @@ Polished Blackstone
 End of entry
 Entry-Netherite Block
 1
-Netherite Ingot
+Netherite
 9
 End of Entry
 Entry-Wood Pickaxe
