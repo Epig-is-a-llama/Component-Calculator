@@ -1543,3 +1543,115 @@ Baked Potato
 Bowl
 1
 End of Entry
+Entry-White Bed
+1
+Planks
+3
+White Wool
+3
+End of Entry
+Entry-Orange Bed
+1
+Planks
+3
+Orange Wool
+3
+End of Entry
+Entry-Magenta Bed
+1
+Planks
+3
+Magenta Wool
+3
+End of Entry
+Entry-Light Blue Bed
+1
+Planks
+3
+Light Blue Wool
+3
+End of Entry
+Entry-Yellow Bed
+1
+Planks
+3
+Yellow Wool
+3
+End of Entry
+Entry-Lime Bed
+1
+Planks
+3
+Lime Wool
+3
+End of Entry
+Entry-Pink Bed
+1
+Planks
+3
+Pink Wool
+3
+End of Entry
+Entry-Gray Bed
+1
+Planks
+3
+Gray Wool
+3
+End of Entry
+Entry-Light Gray Bed
+1
+Planks
+3
+Light Gray Wool
+3
+End of Entry
+Entry-Cyan Bed
+1
+Planks
+3
+Cyan Wool
+3
+End of Entry
+Entry-Purple Bed
+1
+Planks
+3
+Purple Wool
+3
+End of Entry
+Entry-Blue Bed
+1
+Planks
+3
+Blue Wool
+3
+End of Entry
+Entry-Brown Bed
+1
+Planks
+3
+Brown Wool
+3
+End of Entry
+Entry-Green Bed
+1
+Planks
+3
+Green Wool
+3
+End of Entry
+Entry-Red Bed
+1
+Planks
+3
+Red Wool
+3
+End of Entry
+Entry-Black Bed
+1
+Planks
+3
+Black Wool
+3
+End of Entry
