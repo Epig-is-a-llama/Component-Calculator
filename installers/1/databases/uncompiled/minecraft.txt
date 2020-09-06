@@ -2629,3 +2629,98 @@ Melon
 Gold Nugget
 8
 End of Entry
+Entry-Cooked Porkchop
+1
+Raw Porkchop
+1
+End of Entry
+Entry-Steak
+1
+Raw Beef
+1
+End of Entry
+Entry-Cooked Chicken
+1
+Raw Chicken
+1
+End of Entry
+Entry-Cooked Cod
+1
+Raw Cod
+1
+End of Entry
+Entry-Cooked Salmon
+1
+Raw Salmon
+1
+End of Entry
+Entry-Baked Potato
+1
+Potato
+1
+End of Entry
+Entry-Cooked Mutton
+1
+Raw Mutton
+1
+End of Entry
+Entry-Cooked Rabbit
+1
+Raw Rabbit
+1
+End of Entry
+Entry-Dried Kelp
+1
+Kelp
+1
+End of Entry
+Entry-Glass
+1
+Sand
+1
+End of Entry
+Entry-Stone
+1
+Cobblestone
+1
+End of Entry
+Entry-Smooth Sandstone
+1
+Sandstone
+1
+End of Entry
+Entry-Smooth Red Sandstone
+1
+Red Sandstone
+1
+End of Entry
+Entry-Smooth Stone
+1
+Stone
+1
+End of Entry
+Entry-Smooth Quartz
+1
+Quartz
+1
+End of Entry
+Entry-Nether Brick
+1
+Netherrack
+1
+End of Entry
+Entry-Cracked Nether Bricks
+1
+Nether Bricks
+1
+End of Entry
+Entry-Cracked Stone Bricks
+1
+Stone Bricks
+1
+End of Entry
+Entry-Popped Chorus Fruit
+1
+Chorus Fruit
+1
+End of Entry
