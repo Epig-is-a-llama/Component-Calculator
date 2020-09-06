@@ -487,4 +487,114 @@ Entry-Quartz Bricks
 Quartz Block
 1
 End of entry
+Entry-Terracotta
+1
+Clay Block
+1
+End of entry
+Entry-White Terracotta
+8
+Terracotta
+8
+White Dye
+1
+End of entry
+Entry-Orange Terracotta
+8
+Terracotta
+8
+Orange Dye
+1
+End of entry
+Entry-Magenta Terracotta
+8
+Terracotta
+8
+Magenta Dye
+1
+End of entry
+Entry-Light Blue Terracotta
+8
+Terracotta
+8
+Light Blue Dye
+1
+End of entry
+Entry-Yellow Terracotta
+8
+Terracotta
+8
+Yellow Dye
+1
+End of entry
+Entry-Pink Terracotta
+8
+Terracotta
+8
+Pink Dye
+1
+End of entry
+Entry-Gray Terracotta
+8
+Terracotta
+8
+Gray Dye
+1
+End of entry
+Entry-Light Gray Terracotta
+8
+Terracotta
+8
+Light Gray Dye
+1
+End of entry
+Entry-Cyan Terracotta
+8
+Terracotta
+8
+Cyan Dye
+1
+End of entry
+Entry-Purple Terracotta
+8
+Terracotta
+8
+Purple Dye
+1
+End of entry
+Entry-Blue Terracotta
+8
+Terracotta
+8
+Blue Dye
+1
+End of entry
+Entry-Brown Terracotta
+8
+Terracotta
+8
+Brown Dye
+1
+End of entry
+Entry-Green Terracotta
+8
+Terracotta
+8
+Green Dye
+1
+End of entry
+Entry-Red Terracotta
+8
+Terracotta
+8
+Red Dye
+1
+End of entry
+Entry-Black Terracotta
+8
+Terracotta
+8
+Black Dye
+1
+End of entry
 Entry-
