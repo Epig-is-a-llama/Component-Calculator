@@ -684,4 +684,180 @@ Entry-Black Glazed Terracotta
 Black Terracotta
 1
 End of entry
-Entry-
+Entry-Hay Bale
+1
+Wheat
+1
+End of entry
+Entry-Polished Granite
+1
+Granite
+1
+End of entry
+Entry-Polished Andesite
+1
+Andesite
+1
+End of entry
+Entry-Polished Diorite
+1
+Diorite
+1
+End of entry
+Entry-Prismarine
+1
+Prismarine Shard
+4
+End of entry
+Entry-Prismarine Bricks
+1
+Prismarine Shard
+9
+End of entry
+Entry-Dark Prismarine
+1
+Prismarine Shard
+8
+Black Dye
+1
+End of entry
+Entry-Sea Lantern
+1
+Prismarine Shard
+4
+Prismarine Crystal
+5
+End of entry
+Entry-Coarse Dirt
+4
+Dirt
+2
+Gravel
+2
+End of entry
+Entry-Slime Block
+1
+Slimeball
+9
+End of entry
+Entry-Mossy Cobblestone
+1
+Cobblestone
+1
+Vines
+1
+End of entry
+Entry-Mossy Stone Bricks
+1
+Stone Bricks
+1
+Vines
+1
+End of entry
+Entry-Chiseled Stone Brick
+1
+Stone Bricks
+1
+End of entry
+Entry-Red Sandstone
+1
+Red Sand
+4
+End of entry
+Entry-Chiseled Red Sandstone
+1
+Red Sandstone
+1
+End of entry
+Entry-Purpur Block
+4
+Popped Chorus Fruit
+4
+End of entry
+Entry-Purpur Pillar
+1
+Purpur Block
+1
+End of entry
+Entry-Magma Block
+1
+Magma Cream
+1
+End of entry
+Entry-Nether Wart Block
+1
+Nether Wart
+9
+End of entry
+Entry-Nether Bricks
+1
+Nether Brick
+4
+End of entry
+Entry-Red Nether Brick
+1
+Nether Brick
+2
+Nether Wart
+2
+End of entry
+Entry-Bone Block
+1
+Bone Meal
+9
+End of entry
+Entry-Dried Kelp Block
+1
+Dried Kelp
+9
+End of entry
+Entry-Packed Ice
+1
+Ice
+9
+End of entry
+Entry-Blue Ice
+1
+Packed Ice
+9
+End of entry
+Entry-Honey Block
+1
+Honey Bottle
+4
+End of entry
+Entry-Stripped Log
+1
+Log
+1
+End of entry
+Entry-Honeycomb Block
+1
+Honeycomb
+4
+End of entry
+Entry-Polished Basalt
+1
+Basalt
+1
+End of entry
+Entry-Polished Blackstone
+1
+Blackstone
+1
+End of entry
+Entry-Chiseled Polished Blackstone
+1
+Polished Blackstone
+1
+End of entry
+Entry-Polished Blackstone Bricks
+1
+Polished Blackstone
+1
+End of entry
+Entry-Netherite Block
+1
+Netherite Ingot
+9
+End of Entry
