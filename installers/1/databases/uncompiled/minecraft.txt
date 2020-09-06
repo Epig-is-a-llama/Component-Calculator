@@ -604,4 +604,84 @@ Terracotta
 Black Dye
 1
 End of entry
+Entry-White Glazed Terracotta
+1
+White Terracotta
+1
+End of entry
+Entry-Orange Glazed Terracotta
+1
+Orange Terracotta
+1
+End of entry
+Entry-Magenta Glazed Terracotta
+1
+Magenta Terracotta
+1
+End of entry
+Entry-Light Blue Glazed Terracotta
+1
+Light Blue Terracotta
+1
+End of entry
+Entry-Yellow Glazed Terracotta
+1
+Yellow Terracotta
+1
+End of entry
+Entry-Lime Glazed Terracotta
+1
+Lime Terracotta
+1
+End of entry
+Entry-Pink Glazed Terracotta
+1
+Pink Terracotta
+1
+End of entry
+Entry-Gray Glazed Terracotta
+1
+Gray Terracotta
+1
+End of entry
+Entry-Light Gray Glazed Terracotta
+1
+Light Gray Terracotta
+1
+End of entry
+Entry-Cyan Glazed Terracotta
+1
+Cyan Terracotta
+1
+End of entry
+Entry-Purple Glazed Terracotta
+1
+Purple Terracotta
+1
+End of entry
+Entry-Blue Glazed Terracotta
+1
+Blue Terracotta
+1
+End of entry
+Entry-Brown Glazed Terracotta
+1
+Brown Terracotta
+1
+End of entry
+Entry-Green Glazed Terracotta
+1
+Green Terracotta
+1
+End of entry
+Entry-Red Glazed Terracotta
+1
+Red Terracotta
+1
+End of entry
+Entry-Black Glazed Terracotta
+1
+Black Terracotta
+1
+End of entry
 Entry-
