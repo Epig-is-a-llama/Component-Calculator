@@ -2307,3 +2307,120 @@ Entry-Black Concreate
 Black Concreate Powder
 1
 End of Entry
+Entry-White Stained Glass
+8
+Glass
+8
+White Dye
+1
+End of Entry
+Entry-Orange Stained Glass
+8
+Glass
+8
+Orange Dye
+1
+End of Entry
+Entry-Magenta Stained Glass
+8
+Glass
+8
+Magenta Dye
+1
+End of Entry
+Entry-Light Blue Stained Glass
+8
+Glass
+8
+Light Blue Dye
+1
+End of Entry
+Entry-Yellow Stained Glass
+8
+Glass
+8
+Yellow Dye
+1
+End of Entry
+Entry-Lime Stained Glass
+8
+Glass
+8
+Lime Dye
+1
+End of Entry
+Entry-Pink Stained Glass
+8
+Glass
+8
+Pink Dye
+1
+End of Entry
+Entry-Gray Stained Glass
+8
+Glass
+8
+Gray Dye
+1
+End of Entry
+Entry-Light Gray Stained Glass
+8
+Glass
+8
+Light Gray Dye
+1
+End of Entry
+Entry-Cyan Stained Glass
+8
+Glass
+8
+Cyan Dye
+1
+End of Entry
+Entry-Purple Stained Glass
+8
+Glass
+8
+Purple Dye
+1
+End of Entry
+Entry-Blue Stained Glass
+8
+Glass
+8
+Blue Dye
+1
+End of Entry
+Entry-Brown Stained Glass
+8
+Glass
+8
+Brown Dye
+1
+End of Entry
+Entry-Green Stained Glass
+8
+Glass
+8
+Green Dye
+1
+End of Entry
+Entry-Red Stained Glass
+8
+Glass
+8
+Red Dye
+1
+End of Entry
+Entry-Black Stained Glass
+8
+Glass
+8
+Black Dye
+1
+End of Entry
+Entry-Glass Pane
+16
+Glass
+6
+End of Entry
