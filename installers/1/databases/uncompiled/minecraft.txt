@@ -2424,3 +2424,83 @@ Entry-Glass Pane
 Glass
 6
 End of Entry
+Entry-White Stained Glass Pane
+16
+White Stained Glass
+6
+End of Entry
+Entry-Orange Stained Glass Pane
+16
+Orange Stained Glass
+6
+End of Entry
+Entry-Magenta Stained Glass Pane
+16
+Magenta Stained Glass
+6
+End of Entry
+Entry-Light Blue Stained Glass Pane
+16
+Light Blue Stained Glass
+6
+End of Entry
+Entry-Yellow Stained Glass Pane
+16
+Yellow Stained Glass
+6
+End of Entry
+Entry-Lime Stained Glass Pane
+16
+Lime Stained Glass
+6
+End of Entry
+Entry-Pink Stained Glass Pane
+16
+Pink Stained Glass
+6
+End of Entry
+Entry-Gray Stained Glass Pane
+16
+Gray Stained Glass
+6
+End of Entry
+Entry-Light Gray Stained Glass Pane
+16
+Light Gray Stained Glass
+6
+End of Entry
+Entry-Cyan Stained Glass Pane
+16
+Cyan Stained Glass
+6
+End of Entry
+Entry-Purple Stained Glass Pane
+16
+Purple Stained Glass
+6
+End of Entry
+Entry-Blue Stained Glass Pane
+16
+Blue Stained Glass
+6
+End of Entry
+Entry-Brown Stained Glass Pane
+16
+Brown Stained Glass
+6
+End of Entry
+Entry-Green Stained Glass Pane
+16
+Green Stained Glass
+6
+End of Entry
+Entry-Red Stained Glass Pane
+16
+Red Stained Glass
+6
+End of Entry
+Entry-Black Stained Glass Pane
+16
+Black Stained Glass
+6
+End of Entry
