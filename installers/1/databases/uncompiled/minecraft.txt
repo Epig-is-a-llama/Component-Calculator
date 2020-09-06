@@ -1547,7 +1547,7 @@ Entry-White Bed
 1
 Planks
 3
-White Wool
+Wool
 3
 End of Entry
 Entry-Orange Bed
