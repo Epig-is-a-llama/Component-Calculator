@@ -1655,3 +1655,108 @@ Planks
 Black Wool
 3
 End of Entry
+Entry-Orange Wool
+1
+Wool
+1
+Orange Dye
+1
+End of Entry
+Entry-Magenta Wool
+1
+Wool
+1
+Magenta Dye
+1
+End of Entry
+Entry-Light Blue Wool
+1
+Wool
+1
+Light Blue Dye
+1
+End of Entry
+Entry-Yellow Wool
+1
+Wool
+1
+Yellow Dye
+1
+End of Entry
+Entry-Lime Wool
+1
+Wool
+1
+Lime Dye
+1
+End of Entry
+Entry-Pink Wool
+1
+Wool
+1
+Pink Dye
+1
+End of Entry
+Entry-Gray Wool
+1
+Wool
+1
+Gray Dye
+1
+End of Entry
+Entry-Light Gray Wool
+1
+Wool
+1
+Light Gray Dye
+1
+End of Entry
+Entry-Cyan Wool
+1
+Wool
+1
+Cyan Dye
+1
+End of Entry
+Entry-Purple Wool
+1
+Wool
+1
+Purple Dye
+1
+End of Entry
+Entry-Blue Wool
+1
+Wool
+1
+Blue Dye
+1
+End of Entry
+Entry-Brown Wool
+1
+Wool
+1
+Brown Dye
+1
+End of Entry
+Entry-Green Wool
+1
+Wool
+1
+Green Dye
+1
+End of Entry
+Entry-Red Wool
+1
+Wool
+1
+Red Dye
+1
+End of Entry
+Entry-Black Wool
+1
+Wool
+1
+Black Dye
+1
+End of Entry
