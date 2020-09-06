@@ -861,3 +861,167 @@ Entry-Netherite Block
 Netherite Ingot
 9
 End of Entry
+Entry-Wood Pickaxe
+1
+Stick
+2
+Planks
+3
+End of Entry
+Entry-Cobblestone Pickaxe
+1
+Stick
+2
+Cobblestone
+3
+End of Entry
+Entry-Iron Pickaxe
+1
+Stick
+2
+Iron
+3
+End of Entry
+Entry-Gold Pickaxe
+1
+Stick
+2
+Gold
+3
+End of Entry
+Entry-Diamond Pickaxe
+1
+Stick
+2
+Diamond
+3
+End of Entry
+Entry-Wood Axe
+1
+Stick
+2
+Planks
+3
+End of Entry
+Entry-Stone Axe
+1
+Stick
+2
+Cobblestone
+3
+End of Entry
+Entry-Iron Axe
+1
+Stick
+2
+Iron
+3
+End of Entry
+Entry-Diamond Axe
+1
+Stick
+2
+Diamond
+3
+End of Entry
+Entry-Wood Shovel
+1
+Stick
+2
+Planks
+1
+End of Entry
+Entry-Stone Shovel
+1
+Stick
+2
+Cobblestone
+1
+End of Entry
+Entry-Iron Shovel
+1
+Stick
+2
+Iron
+1
+End of Entry
+Entry-Diamond Shovel
+1
+Stick
+2
+Diamond
+1
+End of Entry
+Entry-Wood Hoe
+1
+Stick
+2
+Planks
+2
+End of Entry
+Entry-Stone Hoe
+1
+Stick
+2
+Cobblestone
+2
+End of Entry
+Entry-Iron Hoe
+1
+Stick
+2
+Iron
+2
+End of Entry
+Entry-Diamond Hoe
+1
+Stick
+2
+Diamond
+2
+End of Entry
+Entry-Fishing Rod
+1
+Stick
+3
+String
+2
+End of Entry
+Entry-Flint & Steel
+1
+Iron
+1
+Flint
+1
+End of Entry
+Entry-Compass
+1
+Iron
+4
+Redstone
+1
+End of Entry
+Entry-Clock
+1
+Gold
+4
+Redstone
+1
+End of Entry
+Entry-Bucket
+1
+Iron
+3
+End of Entry
+Entry-Shears
+1
+Iron
+2
+End of Entry
+Entry-Shulker Box
+1
+Shulker Shell
+2
+Chest
+1
+End of Entry
