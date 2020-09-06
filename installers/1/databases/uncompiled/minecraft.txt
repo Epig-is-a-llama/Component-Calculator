@@ -1198,3 +1198,255 @@ Iron
 Tripwire Hook
 1
 End of Entry
+Entry-Wood Pressure Plate
+1
+Planks
+2
+End of Entry
+Entry-Stone Pressure Plate
+1
+Stone
+1
+End of Entry
+Entry-Polished Blackstone Pressure Plate
+1
+Polished Blackstone
+2
+End of Entry
+Entry-Iron Pressure Plate
+1
+Iron
+2
+End of Entry
+Entry-Gold Pressure Plate
+1
+Gold
+2
+End of Entry
+Entry-Wood Trapdoor
+2
+Planks
+6
+End of Entry
+Entry-Gate
+1
+Stick
+4
+Planks
+2
+End of Entry
+Entry-Wood Button
+1
+Planks
+1
+End of Entry
+Entry-Stone Button
+1
+Stone
+1
+End of Entry
+Entry-Polished Blackstone Button
+1
+Polished Blackstone
+1
+End of Entry
+Entry-Lever
+1
+Stick
+1
+Cobblestone
+1
+End of Entry
+Entry-Repeater
+1
+Redstone Torch
+2
+Stone
+3
+Redstone
+1
+End of Entry
+Entry-Redstone Torch
+1
+Redstone
+1
+Stick
+1
+End of Entry
+Entry-Jukebox
+1
+Planks
+8
+Diamond
+1
+End of Entry
+Entry-Dispenser
+1
+Cobblestone
+7
+Redstone
+1
+Bow
+1
+End of Entry
+Entry-Piston
+1
+Planks
+3
+Cobblestone
+4
+Iron
+1
+Redstone
+1
+End of Entry
+Entry-Sticky Piston
+1
+Slimeball
+1
+Piston
+1
+End of Entry
+Entry-Minecart
+1
+Iron
+5
+End of Entry
+Entry-Furnace Minecart
+1
+Furnace
+1
+Minecart
+1
+End of Entry
+Entry-Chest Minecart
+1
+Chest
+1
+Minecart
+1
+End of Entry
+Entry-Rail
+16
+Iron
+6
+Stick
+1
+End of Entry
+Entry-Powered Rail
+6
+Gold
+6
+Stick
+1
+Redstone
+1
+End of Entry
+Entry-Detector Rail
+6
+Iron
+6
+Stone Pressure Plate
+1
+Redstone
+1
+End of Entry
+Entry-Redstone Lamp
+1
+Glowstone Block
+1
+Redstone
+4
+End of Entry
+Entry-Tripwire Hook
+2
+Iron
+1
+Stick
+1
+Planks
+1
+End of Entry
+Entry-Activator Rail
+6
+Iron
+6
+Stick
+2
+Redstone Torch
+1
+End of Entry
+Entry-Daylight Sensor
+1
+Wood Slab
+3
+Quartz
+3
+Glass
+3
+End of Entry
+Entry-Dropper
+1
+Cobblestone
+7
+Redstone
+1
+End of Entry
+Entry-Hopper
+1
+Iron
+5
+Chest
+1
+End of Entry
+Entry-Hopper Minecart
+1
+Hopper
+1
+Minecart
+1
+End of Entry
+Entry-TNT Minecart
+1
+TNT
+1
+Minecart
+1
+End of Entry
+Entry-Comparator
+1
+Quartz
+1
+Redstone Torch
+3
+Stone
+3
+End of Entry
+Entry-Trapped Chest
+1
+Chest
+1
+Tripwire Hook
+1
+End of Entry
+Entry-Iron Trapdoor
+1
+Iron
+4
+End of Entry
+Entry-Observer
+1
+Cobblestone
+6
+Redstone
+2
+Quartz
+1
+End of Entry
+Entry-Target
+1
+Redstone
+4
+Hay Bale
+1
+End of Entry
