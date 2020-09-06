@@ -2504,3 +2504,83 @@ Entry-Black Stained Glass Pane
 Black Stained Glass
 6
 End of Entry
+Entry-White Carpet
+3
+Wool
+2
+End of Entry
+Entry-Orange Carpet
+3
+Orange Wool
+2
+End of Entry
+Entry-Magenta Carpet
+3
+Magenta Wool
+2
+End of Entry
+Entry-Light Blue Carpet
+3
+Light Blue Wool
+2
+End of Entry
+Entry-Yellow Carpet
+3
+Yellow Wool
+2
+End of Entry
+Entry-Lime Carpet
+3
+Lime Wool
+2
+End of Entry
+Entry-Pink Carpet
+3
+Pink Wool
+2
+End of Entry
+Entry-Gray Carpet
+3
+Gray Wool
+2
+End of Entry
+Entry-Light Gray Carpet
+3
+Light Gray Wool
+2
+End of Entry
+Entry-Cyan Carpet
+3
+Cyan Wool
+2
+End of Entry
+Entry-Purple Carpet
+3
+Purple Wool
+2
+End of Entry
+Entry-Blue Carpet
+3
+Blue Wool
+2
+End of Entry
+Entry-Brown Carpet
+3
+Brown Wool
+2
+End of Entry
+Entry-Green Carpet
+3
+Green Wool
+2
+End of Entry
+Entry-Red Carpet
+3
+Red Wool
+2
+End of Entry
+Entry-Black Carpet
+3
+Black Wool
+2
+End of Entry
