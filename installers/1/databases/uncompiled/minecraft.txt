@@ -1450,3 +1450,96 @@ Redstone
 Hay Bale
 1
 End of Entry
+Entry-Bowl
+4
+Planks
+3
+End of Entry
+Entry-Mushroom Stew
+1
+Bowl
+1
+Red Mushroom
+1
+Brown Mushroom
+1
+End of Entry
+Entry-Bread
+1
+Wheat
+3
+End of Entry
+Entry-Golden Apple
+1
+Gold
+8
+Apple
+1
+End of Entry
+Entry-Sugar
+1
+Sugar Cane
+1
+End of Entry
+Entry-Cake
+1
+Milk Bucket
+3
+Sugar
+2
+Egg
+1
+Wheat
+3
+End of Entry
+Entry-Cookies
+8
+Wheat
+2
+Cocoa Beans
+1
+End of Entry
+Entry-Melon Block
+1
+Melon
+9
+End of Entry
+Entry-Melon Seeds
+1
+Melon
+1
+End of Entry
+Entry-Pumpkin Seeds
+4
+Pumpkin
+1
+End of Entry
+Entry-Golden Carrot
+1
+Golden Nugget
+8
+Carrot
+1
+End of Entry
+Entry-Pumpkin Pie
+1
+Pumpkin
+1
+Sugar
+1
+Egg
+1
+End of Entry
+Entry-Rabbit Stew
+1
+Cooked Rabbit
+1
+Mushroom
+1
+Carrot
+1
+Baked Potato
+1
+Bowl
+1
+End of Entry
