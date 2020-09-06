@@ -2584,3 +2584,48 @@ Entry-Black Carpet
 Black Wool
 2
 End of Entry
+Entry-Bottle
+3
+Glass
+3
+End of Entry
+Entry-Cauldron
+1
+Iron
+7
+End of Entry
+Entry-Brewing Stand
+1
+Blaze Rod
+1
+Cobblestone
+3
+End of Entry
+Entry-Blaze Powder
+2
+Blaze Rod
+1
+End of Entry
+Entry-Magma Cream
+1
+Slimeball
+1
+Blaze Powder
+1
+End of Entry
+Entry-Fermented Spider Eye
+1
+Spider Eye
+1
+Brown Mushroom
+1
+Sugar
+1
+End of Entry
+Entry-Glistering Melon
+1
+Melon
+1
+Gold Nugget
+8
+End of Entry
