@@ -27,29 +27,39 @@ def searching_system(wanted_items,database_name):
             test_file = open(current_item, 'rt')
             # trys to open a file as if it fails that means the progarm has reached the end of what it can calulate in that chain
         except Exception as e:
-            entry_exists = False
-            batches_needed = current_item_number
-        else:
-            entry_exists = True
-            data_file = open(current_item,'rt')
-            # if an entry can be found however it then reads it and sees what it needed to compleate that entry and will repeat the process until it gets to just the raw materials
-            raw_entry_data = data_file.read().splitlines()
-            batches_needed = math.ceil(current_item_number / int(raw_entry_data[0]))
-        for x in range(0,batches_needed):
-            # loops the apporitate number of times to get the correct number of resorses
-            if entry_exists == False:
+            # as it has there is no more recipes that can be calulated in this chain it will write the results
+            # loops the correct number of times to get the correct number of items added to the list
+            for x in range(0,current_number):
                 # writes the raw materials
                 raw_output.append(item_needed)
                 # makes sure its always entered to a seperate location in the list
                 print('\nAdded the following entry to the output file: ',item_needed)
-            else:
-                runs = 1
-                entry_data = list()
-                for x in range(1, len(raw_entry_data)):
+        else:
+            # as there are still remaining levels to go down it will work out the needed items for this level it then reads it and sees what it needed to compleate that entry and will repeat the process until it gets to just the raw materials
+            data_file = open(current_item,'rt')
+            # it then writes the contents of the entry to a list
+            raw_entry_data = data_file.read().splitlines()
+            # the number of batches is then calculated
+            batches_needed = math.ceil(current_item_number / int(raw_entry_data[0]))
+            # sets runs to 1 so it skips the first line of the entry as that is only needed for the batches needed system
+            runs = 1
+            # creates an empty list for the program to append to
+            entry_data = list()
+            for x in range(1, len(raw_entry_data)):
+                # works out if the current run is odd (which will be the item name) or even (which will be the number of items)
+                if runs / 2 == int(runs / 2):
+                    # multiplys the number by the batches needed so the appoprite number of items is requested
+                    entry_data.append(str(int(raw_entry_data[runs]) * batches_needed))
+                else:
+                    # as this is just the item name no changes to it need to be made
                     entry_data.append(raw_entry_data[runs])
-                    runs = runs + 1
-                data_file.close()
-                (searching_system(entry_data,database_name))
+                # adds one to the run counter so it moves on to the next index num
+                runs = runs + 1
+            # closes the file
+            data_file.close()
+            # searches for the items needed
+            (searching_system(entry_data,database_name))
+
         item_on = item_on+2
         print('item on: ', item_on)
         # goes up in twos as each entry takes two lines
