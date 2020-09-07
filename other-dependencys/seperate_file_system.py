@@ -9,7 +9,7 @@ raw_output = list()
 
 def searching_system(wanted_items,database_name):
     types_of_needed_items = len(wanted_items)
-    print('types of needed items: ', types_of_needed_items)
+    print('\ntypes of needed items: ', types_of_needed_items)
     # works out the amount of items in the `whanted_items` list
     print('wanted items: ', wanted_items)
     item_on = 0
@@ -18,7 +18,7 @@ def searching_system(wanted_items,database_name):
         current_item = wanted_items[item_on]
         current_item_number = int(wanted_items[item_on + 1])
         # gets the number of items and what items out of the whanted items list
-        print('\nSearching database for entry of : ',current_item)
+        print('Searching database for entry of : ',current_item)
         # gives the user info mation as to what the progarm is doing
         item_needed = current_item
         current_item = 'C:/Component-Calculator/databases/'+database_name+'/Entry-'+current_item+'.txt'
