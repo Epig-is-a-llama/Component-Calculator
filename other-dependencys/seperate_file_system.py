@@ -29,7 +29,7 @@ def searching_system(wanted_items,database_name):
         except Exception as e:
             # as it has there is no more recipes that can be calulated in this chain it will write the results
             # loops the correct number of times to get the correct number of items added to the list
-            for x in range(0,current_number):
+            for x in range(0,current_item_number):
                 # writes the raw materials
                 raw_output.append(item_needed)
                 # makes sure its always entered to a seperate location in the list
