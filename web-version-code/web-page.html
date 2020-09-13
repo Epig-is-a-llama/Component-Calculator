@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>
+      Component Calculator
+    </title>
+
+  </head>
+
+  <body>
+
+    <h1>Welcome to Component Calculator!</h1>
+    <p>To get started select a database below.</p>
+
+    <form>
+
+      <label for="Databases">Search for the database you wish to use:</label>
+      <input type="search" id="Databases" name="Datbases"></input>
+
+    </form>
+
+    <p>Please note some databases may be missing as they may not be functional after a major update.</p>
+
+    <?php
+    $database_file = fopen("databases.txt", "r");
+    fread($database_file,filesize("databases.txt"));
+    fclose($database_file);
+    ?>
+
+  </body>
+
+</html>
