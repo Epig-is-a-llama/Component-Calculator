@@ -175,5 +175,20 @@ shutil.copy('C:/Component-Calculator-TEMP/full_installer.EXE' , base_directory+'
 shutil.rmtree('C:/Component-Calculator-TEMP')
 # removes the temp folder and all its contents as it is now no longer needed
 
+database_list = [os.path.splitext(filename)[0] for filename in os.listdir(base_directory+'/installers/'major_version_num'/databases/zip-files/')]
+# creates a list of all the databases in the current version
+database_list_location = base_directory+'/web-version-code/database-list.txt'
+# creates the variable with the location for the database list file
+database_list_file = open(database_list_location , 'wt')
+# creates the database list file or resets it
+runs = 0
+# sets the var for the loop below
+for x in range(0 , len(database_list)):
+    database_list_file.append(database_list[runs])
+    runs = runs + 1
+    # writes the contents of the list of databases to the file
+database_list_file.close()
+# closes and saves the file
+
 print('The version has now been created to the specifications with the installer files put in the correct places.')
 input('Please press enter to exit: ')
