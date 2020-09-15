@@ -2,18 +2,46 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <title>Database Selection</title>
   </head>
 
   <body>
 
+    <div id="container"></div>
+
+    <script>
+
+    fetch('.txt')
+
+      test = function(name) {
+        var radiobox = document.createElement('input');
+        radiobox.type = 'radio';
+        radiobox.id = 'contact';
+        radiobox.value = name;
+
+        var label = document.createElement('label')
+        label.htmlFor = 'contact';
+
+        var description = document.createTextNode(name);
+        label.appendChild(description);
+
+        var newline = document.createElement('br');
+
+        var container = document.getElementById('container');
+        container.appendChild(radiobox);
+        container.appendChild(label);
+        container.appendChild(newline);
+      }
+
+      test('potato')
+
+    </script>
+
     <form>
 
-      <label for="Databases">Search for the database you wish to use:</label>
-      <input type="search" id="Databases" name="Datbases"></input>
+
 
     </form>
-
-    <page event=onload<script src="http://cdn.jsdelivr.net/gh/Epig-is-a-llama/Component-Calculator/web-version-code/online_version.js"></script></page>
 
   </body>
 
