@@ -11,7 +11,11 @@
 
     <script>
 
-    fetch('.txt')
+    Promise.all([
+      fetch('database-list.txt').then(x => x.text()),
+        ]).then(([sampleResp]) => {
+      console.log(sampleResp);
+    });
 
       test = function(name) {
         var radiobox = document.createElement('input');
