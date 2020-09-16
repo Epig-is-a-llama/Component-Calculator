@@ -1,0 +1,13 @@
+body {
+  color: white;
+background-color: black;
+font-family: 'Nunito Sans', sans-serif;
+}
+.clicked {
+color: black;
+background-color: white;
+}
+a {
+color: green;
+ font-family: verdana;
+}
