@@ -6,27 +6,25 @@
   </head>
 
   <body>
-
-    <div id="container"></div>
+    <legend>Select the database you wish to use</legend>
+      <div id="container"></div>
 
     <script>
 
-    Promise.all([
-      fetch('database-list.txt').then(x => x.text()),
-        ]).then(([sampleResp]) => {
-      console.log(sampleResp);
-    });
-
-      test = function(name) {
+    create_buttons = function(databases) {
+      databases_split = databases.split("\n");
+      var runs;
+      for (runs = 0; databases_split.length - 1 > runs; runs++) {
         var radiobox = document.createElement('input');
         radiobox.type = 'radio';
-        radiobox.id = 'contact';
-        radiobox.value = name;
+        radiobox.name = 'database_selection'
+        radiobox.id = databases_split[runs];
+        radiobox.value = databases_split[runs];
 
-        var label = document.createElement('label')
-        label.htmlFor = 'contact';
+        var label = document.createElement('label');
+        label.htmlFor = databases_split[runs];
 
-        var description = document.createTextNode(name);
+        var description = document.createTextNode(databases_split[runs]);
         label.appendChild(description);
 
         var newline = document.createElement('br');
@@ -35,9 +33,13 @@
         container.appendChild(radiobox);
         container.appendChild(label);
         container.appendChild(newline);
-      }
+    }};
 
-      test('potato')
+    Promise.all([
+      fetch('https://raw.githubusercontent.com/Epig-is-a-llama/Component-Calculator/latest-version/web-version-code/database-list.txt').then(x => x.text()),
+      ]).then(([databases]) => {
+      create_buttons(databases);
+    });
 
     </script>
 
